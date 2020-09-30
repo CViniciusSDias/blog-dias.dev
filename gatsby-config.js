@@ -1,14 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Dias de Dev | Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Vinicius Dias`,
+      summary: `que sempre tenta seguir a regra do bom escoteiro: "Sempre deixe o código mais limpo do que quando você encontrou"`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Descrição`,
+    siteUrl: `https://dias.dev/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `cviniciussdias`,
+      github: 'cviniciussdias'
     },
   },
   plugins: [
@@ -60,11 +61,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Blog do canal Dias de Dev`,
+        short_name: `Dias de Dev`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#550766`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },
