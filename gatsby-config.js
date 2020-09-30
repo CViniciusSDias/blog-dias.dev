@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Dias de Dev | Blog`,
+    title: `Dias de Dev`,
     author: {
       name: `Vinicius Dias`,
       summary: `que sempre tenta seguir a regra do bom escoteiro: "Sempre deixe o código mais limpo do que quando você encontrou"`,

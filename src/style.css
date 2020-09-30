@@ -30,10 +30,8 @@
   --fontFamily-sans: Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
-    Times, serif;
-  --font-body: var(--fontFamily-serif);
-  --font-heading: var(--fontFamily-sans);
+  --font-body: "Baloo 2", Georgia, Cambria, serif;
+  --font-heading: var(--font-body);
   --fontWeight-normal: 400;
   --fontWeight-medium: 500;
   --fontWeight-semibold: 600;
@@ -57,9 +55,9 @@
   --color-primary: #005b99;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
-  --color-heading: #1a202c;
-  --color-heading-black: black;
-  --color-accent: #d1dce5;
+  --color-heading: #52c196;
+  --color-heading-black: #550766;
+  --color-accent: #f00696;
 }
 
 /* HTML elements */
@@ -120,7 +118,7 @@ h6 {
 h1 {
   font-weight: var(--fontWeight-black);
   font-size: var(--fontSize-6);
-  color: var(--color-heading-black);
+  color: var(--color-accent);
 }
 
 h2 {
@@ -252,11 +250,21 @@ a:focus {
 
 .global-header {
   margin-bottom: var(--spacing-12);
+  border-width: var(--spacing-2) 0;
+  padding: var(--spacing-3) 0;
+  border-top-color: var(--color-heading);
+  border-bottom-color: var(--color-accent);
+  border-style: solid;
+  text-align: center;
 }
 
 .main-heading {
+  font-family: "Fugaz One", Roboto, sans-serif;
   font-size: var(--fontSize-7);
+  font-weight: var(--fontWeight-black);
   margin: 0;
+  color: var(--color-heading-black);
+  text-transform: uppercase;
 }
 
 .post-list-item {
@@ -270,20 +278,12 @@ a:focus {
 
 .post-list-item h2 {
   font-size: var(--fontSize-4);
-  color: var(--color-primary);
   margin-bottom: var(--spacing-2);
   margin-top: var(--spacing-0);
 }
 
 .post-list-item header {
   margin-bottom: var(--spacing-4);
-}
-
-.header-link-home {
-  font-weight: var(--fontWeight-bold);
-  font-family: var(--font-heading);
-  text-decoration: none;
-  font-size: var(--fontSize-2);
 }
 
 .bio {
@@ -293,6 +293,10 @@ a:focus {
 
 .bio p {
   margin-bottom: var(--spacing-0);
+}
+
+.bio strong {
+  color: var(--color-accent);
 }
 
 .bio-avatar {
