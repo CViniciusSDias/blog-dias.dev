@@ -29,14 +29,14 @@ const SEO = ({ description, lang, meta, title }) => {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
+  const actualTitle = `${title} | ${defaultTitle}`
 
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      title={actualTitle}
       meta={[
         {
           name: `description`,
@@ -44,7 +44,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `og:title`,
-          content: title,
+          content: actualTitle,
         },
         {
           property: `og:description`,
@@ -64,7 +64,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: actualTitle,
         },
         {
           name: `twitter:description`,
