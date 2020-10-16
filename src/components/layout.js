@@ -13,9 +13,21 @@ const Layout = ({ location, title, children }) => {
           <Link to="/">{title}</Link>
         </HTag>
       </header>
+      <nav className="menu">
+        <Link to="/">Home</Link>
+        <Link to="/sobre-mim">
+          Sobre Mim
+        </Link>
+        <Link to="https://youtube.com/DiasDeDev?sub_confirmation=1" target="_blank">
+          YouTube&nbsp;<img src="/img/external-link-symbol.svg" alt="Símbolo de link externo" aria-hidden="true" width="12" />
+        </Link>
+        <Link href="https://github.com/PHPRio/CFP/issues?q=label%3APalestras+author%3Acviniciussdias" target="_blank">
+          Palestras&nbsp;<img src="/img/external-link-symbol.svg" alt="Símbolo de link externo" aria-hidden="true" width="12" />
+        </Link>
+      </nav>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, <a href="https://youtube.com/DiasDeDev">Dias de Dev</a>
+        © {new Date().getFullYear()}, Dias de Dev
       </footer>
     </div>
   )

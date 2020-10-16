@@ -30,6 +30,7 @@
   --fontFamily-sans: Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --fontFamily-mainHeading: "Fugaz One", Roboto, sans-serif;
   --font-body: "Baloo 2", Georgia, Cambria, serif;
   --font-heading: var(--font-body);
   --fontWeight-normal: 400;
@@ -249,7 +250,7 @@ a:focus {
 }
 
 .global-header {
-  margin-bottom: var(--spacing-12);
+  margin-bottom: var(--spacing-5);
   border-width: var(--spacing-2) 0;
   padding: var(--spacing-3) 0;
   border-top-color: var(--color-heading);
@@ -259,12 +260,31 @@ a:focus {
 }
 
 .main-heading {
-  font-family: "Fugaz One", Roboto, sans-serif;
+  font-family: var(--fontFamily-mainHeading);
   font-size: var(--fontSize-7);
   font-weight: var(--fontWeight-black);
   margin: 0;
   color: var(--color-heading-black);
   text-transform: uppercase;
+}
+
+nav.menu {
+  background: var(--color-heading-black);
+  padding: var(--spacing-1) 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav.menu a {
+  color: white;
+  font-family: var(--fontFamily-mainHeading);
+  text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+}
+
+nav.menu a:hover {
+  text-decoration: underline;
 }
 
 .post-list-item {
