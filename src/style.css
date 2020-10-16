@@ -326,6 +326,10 @@ nav.menu a:hover {
   border-radius: 100%;
 }
 
+.blog-post {
+  margin-top: var(--spacing-8);
+}
+
 .blog-post header h1 {
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
 }
