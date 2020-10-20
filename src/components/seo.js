@@ -30,6 +30,7 @@ const SEO = ({ description, lang, meta, title }) => {
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
   const actualTitle = `${title} | ${defaultTitle}`
+  const imageSize = 600;
 
   return (
     <Helmet
@@ -55,6 +56,18 @@ const SEO = ({ description, lang, meta, title }) => {
           content: `website`,
         },
         {
+          property: 'og:image',
+          content: `https://s.gravatar.com/avatar/63579c5a873f3ab6abff10803e9a252f?s=${imageSize}`,
+        },
+        {
+          property: 'og:image:width',
+          content: imageSize
+        },
+        {
+          property: 'og:image:height',
+          content: imageSize
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
@@ -70,6 +83,10 @@ const SEO = ({ description, lang, meta, title }) => {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: 'twitter:image',
+          content: `https://s.gravatar.com/avatar/63579c5a873f3ab6abff10803e9a252f?s=${imageSize}`,
+        }
       ].concat(meta)}
     />
   )
