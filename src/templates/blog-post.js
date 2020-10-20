@@ -15,6 +15,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
+        meta={[{ name: 'author', content: 'Vinicius Dias' }]}
       />
       <article
         className="blog-post"

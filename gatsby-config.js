@@ -5,7 +5,7 @@ module.exports = {
       name: `Vinicius Dias`,
       summary: `que sempre tenta seguir a regra do bom escoteiro: "Sempre deixe o código mais limpo do que quando você encontrou"`,
     },
-    description: `Descrição`,
+    description: `Conteúdo sobre boas práticas de programação, arquitetura de software, design orientado a objetos e uma pitada de PHP.`,
     siteUrl: `https://dias.dev/`,
     social: {
       twitter: `cviniciussdias`,
