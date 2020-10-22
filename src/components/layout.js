@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -8,6 +9,9 @@ const Layout = ({ location, title, children }) => {
   const HTag = isRootPath ? 'h1' : 'h3';
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
+      <Helmet>
+        <link rel="stylesheet" href="/css/fonts.css" />
+      </Helmet>
       <header className="global-header">
         <HTag className="main-heading">
           <Link to="/">{title}</Link>
@@ -18,12 +22,12 @@ const Layout = ({ location, title, children }) => {
         <Link to="/sobre-mim">
           Sobre Mim
         </Link>
-        <Link to="https://youtube.com/DiasDeDev?sub_confirmation=1" target="_blank">
+        <a href="https://youtube.com/DiasDeDev?sub_confirmation=1" target="_blank">
           YouTube&nbsp;<img src="/img/external-link-symbol.svg" alt="Símbolo de link externo" aria-hidden="true" width="12" />
-        </Link>
-        <Link href="https://github.com/PHPRio/CFP/issues?q=label%3APalestras+author%3Acviniciussdias" target="_blank">
+        </a>
+        <a href="https://github.com/PHPRio/CFP/issues?q=label%3APalestras+author%3Acviniciussdias" target="_blank">
           Palestras&nbsp;<img src="/img/external-link-symbol.svg" alt="Símbolo de link externo" aria-hidden="true" width="12" />
-        </Link>
+        </a>
       </nav>
       <main>{children}</main>
       <footer>
