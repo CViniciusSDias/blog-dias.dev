@@ -91,5 +91,11 @@ module.exports = {
         // routeChangeEventName: "YOUR_ROUTE_CHANGE_EVENT_NAME",
       },
     },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `diasdedev`
+      }
+    },
   ],
 }
