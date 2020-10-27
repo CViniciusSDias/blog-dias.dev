@@ -1,3 +1,8 @@
+---
+title: PHP além da Web
+date: "2020-10-27"
+description: "Embora o PHP tenha nascido na Web e para a Web, é possível usar o PHP além da Web."
+---
 # PHP além da Web
 
 ## PHP + Web = <3
