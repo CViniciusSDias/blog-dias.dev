@@ -102,7 +102,7 @@ class Pessoa
 
     public function __construct(
         string $primeiroNome,
-        string $segundoNome,
+        string $ultimoNome,
         \DateTimeInterface $dataNascimento
     ) {
         $this->primeiroNome = $primeiroNome;

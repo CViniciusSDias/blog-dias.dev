@@ -57,7 +57,7 @@ class AddUser
     private UserRepository $repository;
     private PasswordHasher $hasher;
 
-    public function __cosntruct(UserRepository $repository, PasswordHasher $hasher)
+    public function __construct(UserRepository $repository, PasswordHasher $hasher)
     {
         $this->repository = $repository;
         $this->hasher = $hasher;
@@ -117,7 +117,7 @@ Outra característica de programação procedural nesse caso é que muito comume
 
 No canal _Dev Eficiente_, do Aberto Souza, tem um vídeo falando um pouco mais sobre o problema deste tipo de classe, mas sob uma outra ótica. Vale a pena conferir:
 
-{% youtube szGb93_hXgI %}
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/szGb93_hXgI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Camada Model do MVC
 
@@ -131,9 +131,7 @@ Em nossos _Controllers_ é muito comum ver aquele código super famoso da progra
 
 ### Padrões arquiteturais
 
-Para "resolver" esse problema, diversos padrões arquiteturais existem, e eu falei um pouquinho (bem pouquinho) sobre arquitetura nesse meu outro post: 
-
-{% post https://dev.to/phprio/o-que-e-arquitetura-17ob %}
+Para "resolver" esse problema, diversos padrões arquiteturais existem, e eu falei um pouquinho (bem pouquinho) sobre arquitetura nesse meu outro post: [O que é Arquitetura](https://dias.dev/2020-04-10-o-que-e-arquitetura/)
 
 ## Conclusão
 
