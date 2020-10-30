@@ -67,7 +67,7 @@ class AddUser
     {
         $hashedPassword = $this->hasher
             ->hash($data->password());
-        $user = new User($dados->email(), $hashedPassword);
+        $user = new User($data->email(), $hashedPassword);
 
         $this->repository->add($user);
     }
