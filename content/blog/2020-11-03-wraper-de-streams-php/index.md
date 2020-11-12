@@ -57,7 +57,7 @@ Vamos ver de forma resumida algumas das possibilidades deste wrapper
 ### php://input
 
 Este provavelmente é o stream mais utilizado fornecido por este wrapper. Através dele nós conseguimos acessar diretamente
-o corpo de uma requisição. Então se uma requisição `POST` é feita para seu sistema enviando o corpo em JSON, por exmeplo,
+o corpo de uma requisição. Então se uma requisição `POST` é feita para seu sistema enviando o corpo em JSON, por exemplo,
 o seguinte código pode fazer o parse:
 
 ```php
