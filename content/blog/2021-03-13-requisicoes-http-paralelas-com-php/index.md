@@ -1,7 +1,7 @@
 ---
 title: Requisições HTTP paralelas com PHP
 date: "2021-03-13"
-description: ""
+description: "Realizar requisições HTTP com PHP é uma tarefa corriqueira, mas comumente precisamos fazer várias ao mesmo tempo. Nesse artigo nós vamos aprender a fazer requisições HTTP paralelas com PHP."
 ---
 ## I/O não bloqueante (programação assíncrona)
 
