@@ -13,7 +13,7 @@ as requisições tenham sido feitas de forma concorrente.
 
 ## cURL
 
-Como realizar requisições HTTP usando sockets pode se tornar uma tarefa muito complicada, principalmente em cenários
+Como realizar requisições HTTP usando _sockets_ pode se tornar uma tarefa muito complicada, principalmente em cenários
 onde precisamos enviar dados (requisições POST, por exemplo), cURL é uma alternativa muito interessante. Essa biblioteca
 é pensada especialmente em realizar requisições pela rede e possui diversos facilitadores.
 
@@ -41,7 +41,7 @@ curl_close($handle);
 $data = json_decode($response, true);
 $movies = $data['results'];
 
-foreach ($movies as $i => $movie) {
+foreach ($movies as $movie) {
     // Alterando o protocolo para https
     $url = str_replace('http:', 'https:', $movie['url']);
     $handle = curl_init($url);
@@ -53,12 +53,12 @@ foreach ($movies as $i => $movie) {
 }
 ```
 
-O problema desta abordagem é que cada requisição para os destalhes do filme vai travar a execução do PHP, fazendo
+O problema desta abordagem é que cada requisição para os detalhes do filme vai travar a execução do PHP, fazendo
 com que a próxima requisição só seja iniciada quando a anterior for finalizada.
 
 ### Solução não bloqueante
 
-Para nós informarmos um determinado número de requisições e realizarmos todas de uma vez, podemos usar o `curl_multi_init`.
+Para informarmos um determinado número de requisições e realizarmos todas de uma vez, podemos usar o `curl_multi_init`.
 
 ```php
 <?php
@@ -84,7 +84,7 @@ Assim nós temos diversos _handles_ do `cURL` adicionados a um gerenciador de m�
 `$multiHandle`, todas as requisições serão feitas em paralelo. Maravilha, não é mesmo?
 
 Infelizmente não é tão simples assim. Não basta fazer um `curl_multi_exec` e receber um array de respostas. A função
-`curl_multi_exec` inicia as requisições, porém não bloqueia o código, ou seja, nós precisamos ficar em um loop verificando
+`curl_multi_exec` inicia as requisições, porém não bloqueia o código, ou seja, nós precisamos ficar em um _loop_ verificando
 se todas as requisições já foram feitas. Algo como:
 
 ```php
@@ -98,7 +98,7 @@ do {
 A variável `$numberOfMissingHandles` é passada por referência e é preenchida com o número dos _handles_ que faltam ser
 resolvidos. Em outras palavras, enquanto esse valor não chegar a 0, temos requisições sendo processadas.
 
-Depois de sair desse loop, podemos recuperar as respostas de todas as requisições, então voltamos para a tarefa fácil:
+Depois de sair desse _loop_, podemos recuperar as respostas de todas as requisições, então voltamos para a tarefa fácil:
 
 ```php
 // Por isso armazenamos o array de $handles
@@ -118,16 +118,16 @@ Com isso nós atingimos o objetivo de realizar todas as requisições de uma vez
 
 ### Mal uso de recursos
 
-O problema de nossa abordagem é que a função `curl_multi_exec` retorna imediatamente, sem esperar por nenhuma atividade
-nos handles, ou seja, se as requisições forem demoradas ou houverem muitas requisições (ou ambos), esse loop vai ser
+O problema da nossa abordagem é que a função `curl_multi_exec` retorna imediatamente, sem esperar por nenhuma atividade
+nos _handles_, ou seja, se as requisições forem demoradas ou houverem muitas requisições (ou ambos), esse _loop_ vai ser
 executado de forma muito rápida, por muito tempo. Isso vai fazer com que o uso de CPU vá ao topo, atrasando inclusive o
 processo de realizar requisições, afinal de contas o sistema operacional precisa destinar certos recursos para essa tarefa.
 
 Para mitigar esse problema, podemos usar uma função chamada `curl_multi_select`. Ela é semelhante à `stream_select` que
 vimos no post sobre [PHP assíncrono](/2020-09-16-php-assincrono-de-forma-nativa). Essa função espera que alguma
 atividade aconteça nos handles que estamos utilizando. A diferença é que ela não recebe um array, mas sim o nosso
-`$multiHandle`. Então tudo que temos de informação é quantos possuem atividade no momento, mas não quais. Mas tudo bem,
-já que nosso propósito é ler todos apenas no final.
+`$multiHandle`. Então tudo que temos de informação é quantos _handles_ possuem atividade no momento, mas não quais deles.
+Mas tudo bem, já que o nosso propósito é ler todos apenas no final.
 
 A função `curl_multi_select` deve ser chamada após o `curl_multi_exec`, já que é essa que inicia as requisições efetivamente.
 Então o nosso primeiro _loop_ ficaria assim:
@@ -146,7 +146,7 @@ Dessa forma esse _loop_ será executado menos vezes e em um intervalo maior, ou 
 
 ### Tratamento de erros
 
-Falando em erros, nosso código está supondo que tudo vai correr bem. Nesse primeiro loop nós precisamos realizar algumas
+Falando em erros, nosso código está supondo que tudo vai correr bem. Nesse primeiro _loop_ nós precisamos realizar algumas
 verificações. Então no final, teremos algo como:
 
 ```php
@@ -180,7 +180,6 @@ $data = json_decode($response, true);
 $movies = $data['results'];
 
 $multiHandle = curl_multi_init();
-curl_multi_setopt($multiHandle, CURLOPT_TIMEOUT, 10);
 
 $handles = [];
 foreach ($movies as $i => $movie) {
@@ -200,7 +199,7 @@ do {
     if ($descriptorsCount === -1) {
         throw new RuntimeException('Error checking for activity');
     }
-} while ($numberOfMissingHandles);
+} while ($numberOfMissingHandles > 0);
 
 foreach ($handles as $handle) {
     $response = curl_multi_getcontent($handle);
@@ -217,11 +216,11 @@ tenha ficado clara. Caso contrário, você pode usar a sessão de comentários d
 
 ## Benchmarks
 
-Agora que temos 2 versões de código que resolvem o mesmo problema de forma diferente, podemos testar sua performance.
-Para quem usa sistemas Unix (Linux e Mac) existe um comando chamado `time` que é muito útil para verificações simples
+Agora que temos 2 versões de código que resolvem o mesmo problema de formas diferentes, podemos testar a sua performance.
+Para quem usa sistemas _Unix_ (_Linux_ ou _Mac_) existe um comando chamado `time` que é muito útil para verificações simples
 como essas.
 
-A primeira versão do nosso código (bloqueante) traz essa informação quando executo o seguinte comando (sendo `star-wars.php`o nome do nosso arquivo):
+A primeira versão do nosso código (bloqueante) gera essa informação quando executo o seguinte comando (sendo `star-wars.php`o nome do nosso arquivo):
 ```bash
 $ time php star-wars.php
 
@@ -233,7 +232,7 @@ Já com a versão final do código, temos a seguinte saída:
 ```bash
 $ time php star-wars.php
 
-php sw.php  0.14s user 0.04s system 6% cpu 2.387 total
+php star-wars.php  0.14s user 0.04s system 6% cpu 2.387 total
 ```
 Ou seja, pouco mais de 2 segundos (quase 5 segundos a menos). É uma baita diferença para um exemplo tão simples, não acha?
 
@@ -241,7 +240,7 @@ Agora um último teste, comentando a parte referente ao `curl_multi_select`:
 ```bash
 $ time php star-wars.php
 
-php sw.php  0.50s user 0.70s system 49% cpu 2.421 total
+php star-wars.php  0.50s user 0.70s system 49% cpu 2.421 total
 ```
 Repare que o uso de CPU subiu muito. De algo próximo de 6% para quase 50%. Esse é o propósito da chamada da função
 `curl_multi_select`.
@@ -253,6 +252,6 @@ várias ferramentas que facilitam (e muito) o trabalho de realizar requisições
 opção para isso.
 
 Mas seguindo o que citei no [post sobre aprendizado](/2020-04-23-principios-ou-ferramentas-o-que-estudar), eu penso como
-Richard Feynman (Nobel de física): "O que eu não consigo criar, eu não entendo". Então antes de utilizar uma ferramenta
+Richard Feynman (Nobel de física): “O que eu não consigo criar, eu não entendo”. Então antes de utilizar uma ferramenta
 que realiza o trabalho para mim, eu gosto de saber como realizar este trabalho sem ela. Com isso, se algum problema
-acontecer com a biblioteca, por exemplo, eu vou estar mais preparado para resolvê-lo já que eu entendo um pouco melhor como as coisas funcionam.
+acontecer com a biblioteca, por exemplo, eu vou estar mais preparado para resolvê-lo já que entendo um pouco melhor como as coisas funcionam.
