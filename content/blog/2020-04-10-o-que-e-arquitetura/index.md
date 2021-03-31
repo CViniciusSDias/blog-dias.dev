@@ -32,13 +32,13 @@ Se os arquitetos desse sistema pudessem voltar no tempo, o que fariam, você pod
 
 Em termos de código, entidades poderiam ter sido criadas sem nenhum conhecimento da infraestrutura que cuida da persistência. Se é utilizado Pear DB, PDO, Doctrine, Eloquent, uma API, um arquivo com os dados, tanto faz. A lógica de negócios estaria intacta.
 
-E para salvar no banco? Classes especializadas nessa tarefa, também conhecidas como repositórios, poderiam ter sido utilizadas. Essas classes saberiam lidar com as entidades e fazerem a tradução necessária para o sistema de persistência (usando SQL, por exemplo).
+E para salvar no banco? Classes especializadas nessa tarefa, também conhecidas como repositórios, poderiam ter sido utilizadas. Essas classes saberiam lidar com as entidades e fazer a tradução necessária para o sistema de persistência (usando SQL, por exemplo).
 
 E se a ferramenta usada fosse descontinuada? Bom, simples: Poderíamos criar uma `interface` que define o que um repositório deve saber fazer. Quando o Pear DB deixasse de receber suporte, nossa classe `PearDbQuestionRepository` (repositório de perguntas) poderia ser fácilmente substituída por uma classe `PdoQuestionRepository`, ou até mesmo `DoctrineQuestionRepository`. Isso não faria diferença para as regras de negócio, que precisavam de qualquer implementação da interface `QuestionRepository`.
 
 ## O que isso tem a ver com arquitetura?
 
-— Essa solução proposta é perfeita?
+— Essa solução proposta é perfeita?<br>
 — Longe disso! Tem suas vantagens e desvantagens
 
 Decisões de como organizar nosso código de forma que ele continue "utilizável" após determinado período é o propósito mais simples de uma arquitetura.
@@ -57,8 +57,8 @@ Você muito provavelmente conhece pelo menos um (nem que seja de nome), e aqui c
 
 - MVC (o famoso Model-View-Controller)
 - ADR (Action-Domain-Response, uma espécie de evolução do MVC para web)
-- SOA (Arquitetura orientada a serviços)
-- Clean Architecture (em português, Arquitetura Limpa)
+- [SOA (Arquitetura orientada a serviços)](https://amzn.to/3m7mnTU)
+- [Clean Architecture](https://amzn.to/39usj4i) (em português, [Arquitetura Limpa](https://amzn.to/3fqp69x))
 - Hexagonal Architecture (em português, Arquitetura Hexagonal)
 - Onion Architecture (em português, Arquitetura em Camadas (cebola))
 
@@ -68,4 +68,4 @@ Citar especificidades de cada padrão e suas semelhanças / diferenças fogem do
 
 Não existe sistema sem arquitetura, só sistema com arquitetura ruim. 
 
-Mesmo que no desenvolvimento de um sistema você não siga nenhum padrão arquitetural, há decisões de arquitetura no código, e se mal feitas, essas decisões podem te assombrar por muito (MUITO) tempo.
+Mesmo que no desenvolvimento de um sistema você não siga nenhum padrão arquitetural, há decisões de arquitetura no código, e se mal feitas, essas decisões podem te assombrar por muito MUITO tempo.
