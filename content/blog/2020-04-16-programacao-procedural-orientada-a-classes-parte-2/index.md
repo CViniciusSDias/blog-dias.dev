@@ -43,7 +43,7 @@ Se é uma regra de negócio, deveria estar na classe de negócio. Talvez na clas
 
 ## Services inúteis
 
-O livro do Eric Evans sobre DDD é certamente uma obra que revolucionou o mundo do desenvolvimento. Eu particularmente ainda não o li, mas li obras inspiradas por este livro, então sei que: Neste livro foram definidos alguns conceitos sobre classes chamadas de `Services`.
+[O livro do Eric Evans sobre DDD](https://amzn.to/39MBuNH) é certamente uma obra que revolucionou o mundo do desenvolvimento. Eu particularmente ainda não o li, mas li [obras inspiradas por este livro](https://amzn.to/2Q1bW8d), então sei que: Neste livro foram definidos alguns conceitos sobre classes chamadas de `Services`.
 
 Uma das possíveis "categorias" desse tipo de classe é `Application Service`. Este tipo de classe tem como propósito receber informações de fora do domínio do sistema (da web, linha de comando, etc) e orquestrar as chamadas a regras de domínio.
 

@@ -55,11 +55,11 @@ Cada paradigma de programação (e suas respectivas linguagens suportadas) suger
 
 Princípios muito comuns da programação orientada a objetos (paradigma que estudo mais a fundo) são:
 
-- Tell, don't ask;
+- [Tell, don't ask](https://youtu.be/7IXeLhpjk6g);
 - Least astonishment;
-- *Fail fast;
+- *[Fail fast](https://youtu.be/6mfX6863SAk);
 - *Early return;
-- SOLID (conjunto de princípios);
+- [SOLID](https://amzn.to/2PAWL60) (conjunto de princípios);
 - etc.
 
 _* Princípios também aplicáveis a outros paradigmas_
@@ -74,11 +74,11 @@ Certos problemas são tão comuns de acontecer, que pessoas através dos anos j�
 
 Alguns dos padrões mais famosos seguindos os princípios da programação orientada a objetos são:
 
-- Padrões da "turma dos 4" (_Gang of Four "GoF"_)
+- [Padrões da "turma dos 4" (_Gang of Four "GoF"_)](https://amzn.to/3fN9aOS)
     - 24 padrões (super famosos) separados em 3 categorias
 - Object calisthenics
     - 9 regras para exercitar em seus códigos
-- Sugeridos pelo "desenvolvimento guiado a domínio" (_DDD_)
+- [Sugeridos pelo "desenvolvimento guiado a domínio" (_DDD_)](https://amzn.to/3fN9aOS)
     - Conhecidos como blocos de construção do _DDD_ como _Entity_, _Value Object_, etc.
 
 Como citado no início do capítulo, cada padrão visa resolver problemas bem comuns e genéricos, e devem ser aplicados quando fazem sentido. Os padrões exemplificados estão em níveis bem diferentes de sua aplicação e explicá-los individualmente é impossível através de um único post.
