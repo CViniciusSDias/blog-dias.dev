@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 
-export default ( { data, location }) => {
+const SobreMim = ( { data, location }) => {
   const siteTitle = data?.site?.siteMetadata?.title
 
   return <Layout location={location} title={siteTitle}>
@@ -44,3 +44,4 @@ export const pageQuery = graphql`
     }
   }
 `
+export default SobreMim;

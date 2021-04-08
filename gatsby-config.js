@@ -61,7 +61,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#550766`,
         display: `minimal-ui`,
-        //icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/vinicius.jpg`,
       },
     },
     `gatsby-plugin-react-helmet`,
