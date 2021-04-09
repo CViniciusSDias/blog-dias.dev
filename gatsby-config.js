@@ -97,12 +97,12 @@ module.exports = {
         shortname: `diasdedev`
       }
     },
-    {
+    /*{
       resolve: `gatsby-plugin-google-adsense`,
       options: {
         publisherId: `ca-pub-8918461095244552`
       },
-    },
+    },*/
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {

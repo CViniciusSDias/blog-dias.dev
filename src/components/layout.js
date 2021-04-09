@@ -23,10 +23,10 @@ const Layout = ({ location, title, children }) => {
           Sobre Mim
         </Link>
         <a href="https://youtube.com/DiasDeDev?sub_confirmation=1" target="_blank">
-          YouTube&nbsp;<img src="/img/external-link-symbol.svg" alt="Símbolo de link externo" aria-hidden="true" width="12" />
+          YouTube&nbsp;<img src="/img/external-link-symbol.svg" alt="Símbolo de link externo" aria-hidden="true" width="12" height="12" />
         </a>
         <a href="https://github.com/PHPRio/CFP/issues?q=label%3APalestras+author%3Acviniciussdias" target="_blank">
-          Palestras&nbsp;<img src="/img/external-link-symbol.svg" alt="Símbolo de link externo" aria-hidden="true" width="12" />
+          Palestras&nbsp;<img src="/img/external-link-symbol.svg" alt="Símbolo de link externo" aria-hidden="true" width="12" height="12" />
         </a>
       </nav>
       <main>{children}</main>
