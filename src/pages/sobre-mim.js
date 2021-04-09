@@ -7,7 +7,7 @@ const SobreMim = ( { data, location }) => {
   const siteTitle = data?.site?.siteMetadata?.title
 
   return <Layout location={location} title={siteTitle}>
-      <SEO title="Sobre Mim" />
+      <SEO title="Sobre Mim" description="Quem é Vinicius Dias? Criador do canal Dias de Dev, Vinicius Dias é um estudante e amante de desenvolvimento. Conheça mais sobre ele." />
       <h1>Sobre Mim</h1>
       <h2>Vinicius Dias</h2>
 
