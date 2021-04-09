@@ -16,7 +16,7 @@ const Layout = ({ location, title, children }) => {
       </header>
       <nav className="menu">
         <Link to="/">Home</Link>
-        <Link to="/sobre-mim">
+        <Link to="/sobre-mim/">
           Sobre Mim
         </Link>
         <a href="https://youtube.com/DiasDeDev?sub_confirmation=1" target="_blank">

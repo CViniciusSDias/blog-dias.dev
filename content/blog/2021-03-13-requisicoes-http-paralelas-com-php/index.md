@@ -5,7 +5,7 @@ description: "Realizar requisições HTTP com PHP é uma tarefa corriqueira, mas
 ---
 ## I/O não bloqueante (programação assíncrona)
 
-Em um [post anterior](/2020-09-16-php-assincrono-de-forma-nativa) falei bastante sobre como o PHP trabalha por baixo dos panos de forma nativa com I/O não
+Em um [post anterior](/2020-09-16-php-assincrono-de-forma-nativa/) falei bastante sobre como o PHP trabalha por baixo dos panos de forma nativa com I/O não
 bloqueante, e consequentemente com programação assíncrona. Usando os conhecimentos daquele post com conhecimentos de
 _sockets_ e HTTP seria possível realizarmos chamadas HTTP assíncronas e processá-las conforme elas fossem recebidas.
 Porém é bastante comum podermos nos dar ao luxo de processar todas as respostas HTTP depois de prontas, desde que todas
@@ -124,7 +124,7 @@ executado de forma muito rápida, por muito tempo. Isso vai fazer com que o uso 
 processo de realizar requisições, afinal de contas o sistema operacional precisa destinar certos recursos para essa tarefa.
 
 Para mitigar esse problema, podemos usar uma função chamada `curl_multi_select`. Ela é semelhante à `stream_select` que
-vimos no post sobre [PHP assíncrono](/2020-09-16-php-assincrono-de-forma-nativa). Essa função espera que alguma
+vimos no post sobre [PHP assíncrono](/2020-09-16-php-assincrono-de-forma-nativa/). Essa função espera que alguma
 atividade aconteça nos handles que estamos utilizando. A diferença é que ela não recebe um array, mas sim o nosso
 `$multiHandle`. Então tudo que temos de informação é quantos _handles_ possuem atividade no momento, mas não quais deles.
 Mas tudo bem, já que o nosso propósito é ler todos apenas no final.
@@ -247,11 +247,11 @@ Repare que o uso de CPU subiu muito. De algo próximo de 6% para quase 50%. Esse
 
 ## Conclusão
 
-Assim como já foi citado no post sobre [PHP assíncrono](/2020-09-16-php-assincrono-de-forma-nativa), existem
+Assim como já foi citado no post sobre [PHP assíncrono](/2020-09-16-php-assincrono-de-forma-nativa/), existem
 várias ferramentas que facilitam (e muito) o trabalho de realizar requisições HTTP paralelas com PHP. Guzzle é uma ótima
 opção para isso.
 
-Mas seguindo o que citei no [post sobre aprendizado](/2020-04-23-principios-ou-ferramentas-o-que-estudar), eu penso como
+Mas seguindo o que citei no [post sobre aprendizado](/2020-04-23-principios-ou-ferramentas-o-que-estudar/), eu penso como
 Richard Feynman (Nobel de física): “O que eu não consigo criar, eu não entendo”. Então antes de utilizar uma ferramenta
 que realiza o trabalho para mim, eu gosto de saber como realizar este trabalho sem ela. Com isso, se algum problema
 acontecer com a biblioteca, por exemplo, eu vou estar mais preparado para resolvê-lo já que entendo um pouco melhor como as coisas funcionam.
