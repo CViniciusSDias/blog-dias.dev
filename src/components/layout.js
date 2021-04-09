@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Helmet } from "react-helmet"
+import "./fonts.css"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -9,9 +9,6 @@ const Layout = ({ location, title, children }) => {
   const HTag = isRootPath ? 'h1' : 'h3';
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
-      <Helmet>
-        <link rel="stylesheet" href="/css/fonts.css" />
-      </Helmet>
       <header className="global-header">
         <HTag className="main-heading">
           <Link to="/">{title}</Link>
