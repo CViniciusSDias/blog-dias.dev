@@ -87,6 +87,9 @@ com a linguagem. É um bom aprendizado.
 
 No momento da escrita deste artigo o PHP já vem instalado no Mac por padrão. :-D
 
+Porém via de regra uma versão mais antiga e não com menos extensões vêm instalada, então o ideal é utilizar o Homebrew
+para instalar o PHP e facilitar instalação de extensões no futuro.
+
 ## E como aprender Web sem Apache?
 
 Se você tem o PHP na sua máquina você já tem também um servidor web instalado, sem precisar alterar arquivos de configuração, abrir
@@ -121,5 +124,5 @@ XAMPP foi uma ferramenta que ajudou bastante gente que precisava de um ambiente 
 simples antes de 2011, já que ele facilitava a instalação da praticamente a única opção do mercado: Apache.
 
 Porém há 10 anos Apache não é mais necessário para um ambiente simples de aprendizado e desenvolvimento, e se o assunto
-for um serivdor de produção, XAMPP nunca foi uma alternativa viável. Sendo assim, para desenvolvedores PHP, não há
+for um servidor de produção, XAMPP nunca foi uma alternativa viável. Sendo assim, para desenvolvedores PHP, não há
 motivos válidos para uso do XAMPP nos dias atuais.
