@@ -87,7 +87,7 @@ com a linguagem. É um bom aprendizado.
 
 No momento da escrita deste artigo o PHP já vem instalado no Mac por padrão. :-D
 
-Porém via de regra uma versão mais antiga e não com menos extensões vêm instalada, então o ideal é utilizar o Homebrew
+Porém via de regra uma versão mais antiga e com menos extensões vêm instalada, então o ideal é utilizar o Homebrew
 para instalar o PHP e facilitar instalação de extensões no futuro.
 
 ## E como aprender Web sem Apache?
