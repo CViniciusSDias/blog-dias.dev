@@ -13,7 +13,7 @@ Obviamente não existe alternativa certa ou errada, então nesse post eu vou som
 
 ## Mercado de trabalho
 
-É inegável que para atuar no mercado de trabalho nós precisamos de muito mais conhecimento do que nos é passado inicialmente em qualquer livro, curso ou post de blog. Somente a experiência e vivência vai nos dar a bagagem necessária para resolver os problemas e gerar valor para os clientes.
+É inegável que para atuar no mercado de trabalho nós precisamos de muito mais conhecimento do que nos é passado inicialmente em qualquer livro, curso ou post de blog. Somente a experiência e vivência vão nos dar a bagagem necessária para resolver os problemas e gerar valor para os clientes.
 
 Mas isso não quer dizer que nós só devamos estudar o que o emprego atual nos pede. Pelo contrário. Se nós estudamos além do que nos é pedido, ou no caso do primeiro emprego, estudamos antes de algo nos ser cobrado, quando uma oportunidade ou problema surgir, as chances serão muito maiores de estarmos prontos.
 
@@ -23,7 +23,7 @@ Ok, até aqui só usei o termo "estudo", mas devemos estudar o que? Ferramentas 
 
 ## Linguagens, bibliotecas e frameworks
 
-Se você quer entrar para a área de desenvolvimento e acredita que seu trabalho vai ser escrever código, você está enganado(a). O nosso trabalho é solucionar problemas. Código é uma ferramenta, um meio para o fim. Linguagens de programação são apenas ferramentas para nós resolvermos determinados problemas. Frameworks e bibliotecas nada mais são do que ferramentas de "alto nível", que nós trazem alguma facilidades e alguns problemas genéricos já resolvidos.
+Se você quer entrar para a área de desenvolvimento e acredita que seu trabalho vai ser escrever código, você está enganado(a). O nosso trabalho é solucionar problemas. Código é uma ferramenta, um meio para o fim. Linguagens de programação são apenas ferramentas para nós resolvermos determinados problemas. Frameworks e bibliotecas nada mais são do que ferramentas de "alto nível", que nos trazem algumas facilidades e alguns problemas genéricos já resolvidos.
 
 Ah, Vinicius, quer dizer que a escolha da linguagem de programação não é importante? Longe disso! A linguagem de programação é uma ferramenta muito importante para a solução do problema e existem linguagens diferentes para solucionar problemas diferentes. O ponto é: elas são ferramentas.
 
@@ -48,6 +48,9 @@ Entender bem as vantagens e desvantagens de cada paradigma e as diferenças entr
 Este post (em inglês) fala com bem mais de detalhes sobre os principais paradigmas de programação e alguns exemplos de linguagens:
 
 https://dev.to/vplentinax/classification-of-computer-languages-ii-2201
+
+Se você (assim como eu) prefere vídeos, pode conferir este aqui:
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/asFnD-JLFWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Princípios
 
@@ -76,7 +79,7 @@ Alguns dos padrões mais famosos seguindos os princípios da programação orien
 
 - [Padrões da "turma dos 4" (_Gang of Four "GoF"_)](https://amzn.to/3fN9aOS)
     - 24 padrões (super famosos) separados em 3 categorias
-- Object calisthenics
+- [Object calisthenics](https://youtu.be/z4fxFU5MoAA)
     - 9 regras para exercitar em seus códigos
 - [Sugeridos pelo "desenvolvimento guiado a domínio" (_DDD_)](https://amzn.to/3fN9aOS)
     - Conhecidos como blocos de construção do _DDD_ como _Entity_, _Value Object_, etc.
