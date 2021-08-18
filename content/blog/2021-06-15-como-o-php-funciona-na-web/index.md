@@ -62,9 +62,9 @@ A abordagem utilizando Nginx + PHP-FPM é a ideal para grande parte das aplicaç
 
 ## Servidores auto-contidos
 
-Quando temos milhões de requisições chegando ou comunicação em tempo real acontecendo, o fato de ser necessária a inicialização de todas as variáveis novamente e o início do código de toda nossa aplicação ter que ser realizada a cada requisição pode ser um peso. Imagina que a cada requisição seu _framework_ favorito (que provavelmente é bem pesado) precisa ser inicializado novamente.
+Quando temos milhões de requisições chegando ou comunicação em tempo real acontecendo, o fato de ser necessária a inicialização de todas as variáveis novamente e o início do código de toda nossa aplicação ter que ser realizada a cada requisição pode ser um peso. Imagine que a cada requisição seu _framework_ favorito (que provavelmente é bem pesado) precisa ser inicializado novamente.
 
-Para resolver os problemas deste tipo de aplicação que demanda um nível a mais de performance, servidores auto-contidos podem ser utilizados. O conceito de um servidor auto-contido é um serivdor web exposto pela própria aplicação, ou seja, seu próprio código PHP recebe diretamente as requisições.
+Para resolver os problemas deste tipo de aplicação que demanda um nível a mais de performance, servidores auto-contidos podem ser utilizados. Um servidor auto-contido é um serivdor web exposto pela própria aplicação, ou seja, seu próprio código PHP recebe diretamente as requisições.
 
 Com isso a inicialização da sua aplicação pode ser feita uma única vez e a cada nova requisição, podemos somente executar o código necessário, sem necessidade de levantar de novo o _framework_, buscar as configurações, ler variáveis de ambiente, processar as dependências, definir as rotas, etc.
 
@@ -87,3 +87,5 @@ Vimos neste artigo que há várias formas para fazer com que uma requisição ch
 Atualmente as 2 opções aceitáveis são utilizando PHP-FPM ou algum servidor auto-contido. Nenhuma das 2 abordagens tira o papel de servidores Web como o amado Apache ou o moderno Nginx.
 
 No caso do PHP-FPM precisamos de um servidor para receber as requisições HTTP e enviar as chamadas para o PHP com FastCGI. No caso de um servidor auto-contido, podemos ter um proxy reverso servindo os arquivos estáticos e realizando cache, por exemplo, enquanto o servidor auto-contido responde apenas as requisições realmente necessárias.
+
+Se você quiser aprender mais sobre algum desses assuntos, pode considerar assinar a Alura. Lá existem treinamentos (gravados por mim) sobre Nginx, ReactPHP, Swoole e muito mais. Caso pretenda estudar na Alura, [neste link](https://www.alura.com.br/promocao/diasdedev) você tem um desconto de 10%.

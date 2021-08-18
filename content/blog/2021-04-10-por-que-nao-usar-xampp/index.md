@@ -126,3 +126,5 @@ simples antes de 2011, já que ele facilitava a instalação da praticamente a �
 Porém há 10 anos Apache não é mais necessário para um ambiente simples de aprendizado e desenvolvimento, e se o assunto
 for um servidor de produção, XAMPP nunca foi uma alternativa viável. Sendo assim, para desenvolvedores PHP, não há
 motivos válidos para uso do XAMPP nos dias atuais.
+
+Se você quiser aprender mais sobre algum desses assuntos, pode considerar assinar a Alura. Lá existem treinamentos (gravados por mim) sobre PHP, Nginx e muito mais. Caso pretenda estudar na Alura, [neste link](https://www.alura.com.br/promocao/diasdedev) você tem um desconto de 10%.
