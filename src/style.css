@@ -359,3 +359,9 @@ nav.menu a:hover {
     list-style-position: inside;
   }
 }
+
+section[itemprop="articleBody"] img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
