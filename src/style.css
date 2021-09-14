@@ -365,3 +365,11 @@ section[itemprop="articleBody"] img {
   display: block;
   margin: 0 auto;
 }
+
+div.iframe {
+  text-align: center;
+}
+
+img.big-image {
+  max-height: 80vh;
+}
