@@ -163,6 +163,6 @@ Conforme prometido, vou deixar aqui alguns links para que você possa se aprofun
 - https://www.php.net/manual/en/book.stream.php
     - A documentação oficial é sempre um ótimo lugar para recorrer e entender a fundo as funcionalidades
 - https://cursos.alura.com.br/course/php-io-arquivos-streams
-    - Na Alura existe um curso específico de streams usando filtros, contextos e muito mais
+    - Na Alura existe um curso específico de streams usando filtros, contextos e muito mais. Se quiser 10% de desconto na sua assinatura, confere [esse link aqui](https://www.alura.com.br/promocao/diasdedev).
 - [PHP Assíncrono de Forma Nativa](/2020-09-16-php-assincrono-de-forma-nativa/)
     - Aqui mesmo no blog tem um post onde uso streams para realizar programação assíncrona através de I/O não bloqueante.
