@@ -16,9 +16,10 @@ Neste vídeo eu expliquei um pouco de como funciona o processo desde quando damo
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/B2IWlnJ_dt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Existem várias outras referências (inclusive mais completas) para você conhecer as tecnologias por trás da Web. Vou deixar aqui algumas referências:
-- [Desconstruindo a Web: As tecnologias por trás de uma requisição](https://amzn.to/3cDAfS7)
+- [Desconstruindo a Web: As tecnologias por trás de uma requisição](https://amzn.to/3lzFVkD)
 - [HTTP: The Definitive Guide](https://amzn.to/35k9rT1)
 - [Learning Http/2: A Practical Guide for Beginners](https://amzn.to/3gEgz22)
+- [Cursos de HTTP na Alura](https://www.alura.com.br/promocao/diasdedev)
 
 Com esse conhecimento, já podemos partir para o foco deste artigo: como o **PHP** funciona na Web?
 

@@ -62,7 +62,7 @@ Princípios muito comuns da programação orientada a objetos (paradigma que est
 - Least astonishment;
 - *[Fail fast](https://youtu.be/6mfX6863SAk);
 - *Early return;
-- [SOLID](https://amzn.to/2PAWL60) (conjunto de princípios);
+- [SOLID](https://amzn.to/3Eplrm2) (conjunto de princípios);
 - etc.
 
 _* Princípios também aplicáveis a outros paradigmas_
@@ -75,13 +75,13 @@ Tendo entendido o que são paradigmas e que cada um deles possui princípios, ba
 
 Certos problemas são tão comuns de acontecer, que pessoas através dos anos já estudaram e discutiram muito sobre as melhores formas de resolvê-los.
 
-Alguns dos padrões mais famosos seguindos os princípios da programação orientada a objetos são:
+Alguns dos padrões mais famosos seguindo os princípios da programação orientada a objetos são:
 
-- [Padrões da "turma dos 4" (_Gang of Four "GoF"_)](https://amzn.to/3fN9aOS)
+- [Padrões da "turma dos 4" (_Gang of Four "GoF"_)](https://amzn.to/3pIqBDR)
     - 24 padrões (super famosos) separados em 3 categorias
 - [Object calisthenics](https://youtu.be/z4fxFU5MoAA)
     - 9 regras para exercitar em seus códigos
-- [Sugeridos pelo "desenvolvimento guiado a domínio" (_DDD_)](https://amzn.to/3fN9aOS)
+- [Sugeridos pelo "desenvolvimento guiado a domínio" (_DDD_)](https://amzn.to/3ojA9Wf)
     - Conhecidos como blocos de construção do _DDD_ como _Entity_, _Value Object_, etc.
 
 Como citado no início do capítulo, cada padrão visa resolver problemas bem comuns e genéricos, e devem ser aplicados quando fazem sentido. Os padrões exemplificados estão em níveis bem diferentes de sua aplicação e explicá-los individualmente é impossível através de um único post.
@@ -103,4 +103,4 @@ Se você tem um bom conhecimento de um paradigma (e consequentemente, uma lingua
 
 Frameworks e bibliotecas são ferramentas que facilitam a resolução de problemas **que você deveria saber resolver sem elas**. Richard Feynman, ganhador do Nobel de física, escreveu uma vez: “What I cannot create I do not understand”. Traduzindo: "O que eu não consigo criar eu não entendo".
 
-Então antes de utilizar um framework, sabia resolver o problema sem ele. Antes de utilizar uma biblioteca mais específica, saiba resolver o problema sem ela. Isso faz com que você consiga resolver um problema nas ferramentas, caso aconteça.
+Então antes de utilizar um framework, saiba resolver o problema sem ele. Antes de utilizar uma biblioteca mais específica, saiba resolver o problema sem ela. Isso faz com que você consiga resolver um problema nas ferramentas, caso aconteça.

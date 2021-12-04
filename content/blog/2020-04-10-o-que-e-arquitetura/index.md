@@ -57,8 +57,8 @@ Você muito provavelmente conhece pelo menos um (nem que seja de nome), e aqui c
 
 - MVC (o famoso Model-View-Controller)
 - ADR (Action-Domain-Response, uma espécie de evolução do MVC para web)
-- [SOA (Arquitetura orientada a serviços)](https://amzn.to/3m7mnTU)
-- [Clean Architecture](https://amzn.to/39usj4i) (em português, [Arquitetura Limpa](https://amzn.to/3fqp69x))
+- [SOA (Arquitetura orientada a serviços)](https://amzn.to/3Do3e7h)
+- [Clean Architecture](https://amzn.to/3dljwDj) (em português, [Arquitetura Limpa](https://amzn.to/3fqp69x))
 - Hexagonal Architecture (em português, Arquitetura Hexagonal)
 - Onion Architecture (em português, Arquitetura em Camadas (cebola))
 
