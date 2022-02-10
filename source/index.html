@@ -1,0 +1,35 @@
+---
+layout: default
+title: Todas as publicações
+generator: pagination
+pagination:
+    max_per_page: 5
+use:
+    - posts
+css_file: index
+---
+{% for post in page.pagination.items %}
+    <article class="post-list-item" itemscope itemtype="https://schema.org/Article">
+        <header>
+            <h2 itemprop="headline">
+                <a href="{{ site.url }}{{ post.url }}" itemprop="url">{{ post.title }}</a>
+            </h2>
+            <small class="post-date" itemprop="dateCreated">
+                {{ post.date|format_date(locale='pt-BR', pattern="dd 'de' MMMM 'de' Y") }}
+            </small>
+        </header>
+        <div itemprop="abstract">
+            {{ post.meta.description }}
+        </div>
+    </article>
+{% endfor %}
+{% if page.pagination.previous_page or page.pagination.next_page %}
+    <nav class="index-footer">
+        {% if page.pagination.previous_page %}
+        <a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Publicações mais recentes</a>
+        {% endif %}
+        {% if page.pagination.next_page %}
+        <a href="{{ site.url }}{{ page.pagination.next_page.url }}">Publicações mais antigas</a>
+        {% endif %}
+    </nav>
+{% endif %}
