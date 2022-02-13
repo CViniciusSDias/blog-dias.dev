@@ -1,7 +1,7 @@
 ---
 title: "Extensões PHP"
 date: "2022-02-13"
-description: ""
+description: "PHP é uma linguagem de programação que permite o uso e criação de extensões. Conheça neste artigo o que são extensões PHP"
 tags: ["PHP", "Extensões PHP", "Dias de Dev"]
 categories: ["PHP"]
 ---
