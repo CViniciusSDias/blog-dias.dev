@@ -10,7 +10,7 @@ use:
     <ul>
         {% for category in data.posts_categories|keys|sort %}
         <li>
-            <a href="{{ site.url }}/categories/{{ category|url_encode(true) }}">
+            <a href="/categories/{{ category|url_encode(true) }}">
                 {{ category }}
             </a>
         </li>

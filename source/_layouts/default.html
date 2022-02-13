@@ -8,29 +8,29 @@
         {% block head_meta %}
             <meta name="robots" content="noindex, follow">
         {% endblock %}
-        <link rel="stylesheet" href="{{ site.url }}/build/app.css">
+        <link rel="stylesheet" href="/build/app.css">
 
-        <!--<link rel="apple-touch-startup-image" href="{{ site.url }}/build/2048x2048.png">
+        {#<link rel="apple-touch-startup-image" href="/build/2048x2048.png">
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
-        <link rel="shortcut icon" sizes="76x76" href="{{ site.url }}/build/jackson/76x76.png">
-        <link rel="shortcut icon" sizes="120x120" href="{{ site.url }}/build/jackson/120x120.png">
-        <link rel="shortcut icon" sizes="128x128" href="{{ site.url }}/build/jackson/128x128.png">
-        <link rel="shortcut icon" sizes="152x152" href="{{ site.url }}/build/jackson/152x152.png">
-        <link rel="shortcut icon" sizes="196x196" href="{{ site.url }}/build/jackson/196x196.png">
-        <link rel="shortcut icon" sizes="512x512" href="{{ site.url }}/build/jackson/512x512.png">
-        <link rel="shortcut icon" sizes="1024x1024" href="{{ site.url }}/build/jackson/1024x1024.png">
-        <link rel="shortcut icon" sizes="2048x2048" href="{{ site.url }}/build/jackson/2048x2048.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}/build/jackson/76x76.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}/build/jackson/120x120.png">
-        <link rel="apple-touch-icon" sizes="128x128" href="{{ site.url }}/build/jackson/128x128.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}/build/jackson/152x152.png">
-        <link rel="apple-touch-icon" sizes="196x196" href="{{ site.url }}/build/jackson/196x196.png">
-        <link rel="apple-touch-icon" sizes="512x512" href="{{ site.url }}/build/jackson/512x512.png">
-        <link rel="apple-touch-icon" sizes="1024x1024" href="{{ site.url }}/build/jackson/1024x1024.png">
-        <link rel="apple-touch-icon" sizes="2048x2048" href="{{ site.url }}/build/jackson/2048x2048.png">-->
+        <link rel="shortcut icon" sizes="76x76" href="/build/jackson/76x76.png">
+        <link rel="shortcut icon" sizes="120x120" href="/build/jackson/120x120.png">
+        <link rel="shortcut icon" sizes="128x128" href="/build/jackson/128x128.png">
+        <link rel="shortcut icon" sizes="152x152" href="/build/jackson/152x152.png">
+        <link rel="shortcut icon" sizes="196x196" href="/build/jackson/196x196.png">
+        <link rel="shortcut icon" sizes="512x512" href="/build/jackson/512x512.png">
+        <link rel="shortcut icon" sizes="1024x1024" href="/build/jackson/1024x1024.png">
+        <link rel="shortcut icon" sizes="2048x2048" href="/build/jackson/2048x2048.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/build/jackson/76x76.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/build/jackson/120x120.png">
+        <link rel="apple-touch-icon" sizes="128x128" href="/build/jackson/128x128.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/build/jackson/152x152.png">
+        <link rel="apple-touch-icon" sizes="196x196" href="/build/jackson/196x196.png">
+        <link rel="apple-touch-icon" sizes="512x512" href="/build/jackson/512x512.png">
+        <link rel="apple-touch-icon" sizes="1024x1024" href="/build/jackson/1024x1024.png">
+        <link rel="apple-touch-icon" sizes="2048x2048" href="/build/jackson/2048x2048.png">#}
 
-        <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/atom.xml" title="{{ site.title }} activity feed" />
+        <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="{{ site.title }} activity feed" />
         {% if page.css_file is defined %}
         <link rel="stylesheet" href="/build/{{ page.css_file }}.css">
         {% endif %}
@@ -50,8 +50,8 @@
                 <nav class="menu">
                     <a aria-current="page" href="/">Home</a>
                     <a href="/categorias">Categorias</a>
-                    <!--<a class="nav-link" href="{{ site.url }}/blog">Posts Archive</a>
-                    <a class="nav-link" href="{{ site.url }}/blog/tags">Tags</a>-->
+                    <!--<a class="nav-link" href="/blog">Posts Archive</a>
+                    <a class="nav-link" href="/blog/tags">Tags</a>-->
                     <a href="/sobre-mim/">Sobre Mim</a>
                     <a href="https://youtube.com/DiasDeDev?sub_confirmation=1" target="_blank">
                         YouTube
@@ -64,7 +64,7 @@
             <footer class="global-footer">&copy; {{ "now"|date("Y") }} {{ site.title }}</footer>
         </div>
 
-        <script src="{{ site.url }}/build/app.js"></script>
+        <script src="/build/app.js"></script>
         {% block scripts %}
         {% endblock %}
 
