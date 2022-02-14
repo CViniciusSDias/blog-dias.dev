@@ -5,7 +5,7 @@ description: "PHP é uma linguagem de programação que permite o uso e criaçã
 tags: ["PHP", "Extensões PHP", "Dias de Dev"]
 categories: ["PHP"]
 ---
-PHP é uma linguagem de programação que roda em uma espécie de "máquina virtual" chamada _Zend Engine_. Essa máquina
+PHP é uma linguagem de programação que roda em uma máquina virtual chamada _Zend Engine_. Essa máquina
 virtual é escrita em C e permite que nós escrevamos código em C para embutir funcionalidades no PHP. Assim funcionam as
 extensões do PHP.
 
