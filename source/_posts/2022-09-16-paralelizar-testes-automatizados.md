@@ -33,4 +33,4 @@ A vantagem de paralelizar testes é bastante clara e a desvantagem é somente a 
 
 Cada ecossistema e ferramenta resolve esse problema de uma maneira diferente, mas todos eles possuem alguma solução. Vale a pesquisa para saber mais sobre a linguagem com a qual você trabalha.
 
-Se não estiver familiarizado com conceitos de testes, sugiro assistir [esta playlist](https://www.youtube.com/playlist?list=PL3j2sfzg3FPsPiaDUmDDKNvco49YMdj8f) de testes automatizados. E se quiser se aprofundar em testes e programação em geral, aqui tem um cupom de desconto para você assinar Alura: https://www.alura.com.br/promocao/diasdedev
+Se não estiver familiarizado com conceitos de testes, sugiro assistir [esta playlist](https://www.youtube.com/playlist?list=PL3j2sfzg3FPsPiaDUmDDKNvco49YMdj8f) de testes automatizados. E se quiser se aprofundar em testes e programação em geral, aqui tem um cupom de desconto para você assinar Alura: <https://www.alura.com.br/promocao/diasdedev>
