@@ -13,6 +13,16 @@ Linguagens, frameworks, bibliotecas, paradigmas, princípios, etc. Não é fáci
 
 Obviamente não existe alternativa certa ou errada, então nesse post eu vou somente expor minha opinião. Não tome o que for dito aqui como verdade, mas sim reflita e analise se faz sentido para você.
 
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-8918461095244552"
+data-ad-slot="2366637560"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Mercado de trabalho
 
 É inegável que para atuar no mercado de trabalho nós precisamos de muito mais conhecimento do que nos é passado inicialmente em qualquer livro, curso ou post de blog. Somente a experiência e vivência vão nos dar a bagagem necessária para resolver os problemas e gerar valor para os clientes.

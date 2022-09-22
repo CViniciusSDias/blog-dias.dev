@@ -26,6 +26,16 @@ Quem usa PHP no dia-a-dia com certeza usa alguma extensão. Alguns exemplos de e
 Além de existir um número enorme de extensões do PHP, existem também alguns tipos onde elas podem ser categorizadas.
 Estes tipos são: _Core Extensions_, _Bundled Extensions_, _External Extensions_ e _PECL Extensions_.
 
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-8918461095244552"
+data-ad-slot="2366637560"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### Core Extensions
 
 As extensões _Core_, como o nome já diz, fazem parte do _core_ (núcleo) do PHP. O PHP não existe sem elas e é impossível

@@ -35,6 +35,16 @@ Assim o PHP nasceu, sendo uma espécie de _framework_ C. O Apache executava um p
 
 Esta é a forma mais rudimentar de se executar um código _server-side_ e não é mais recomendada, pois há alternativas mais interessantes que veremos neste artigo.
 
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-8918461095244552"
+data-ad-slot="2366637560"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Apache mod_php
 
 Conforme o PHP (e a Web em si) foi evoluindo, a abordagem utilizando CGI foi se mostrando ineficaz, desperdiçando recursos de processamento.

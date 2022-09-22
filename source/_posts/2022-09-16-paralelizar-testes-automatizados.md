@@ -15,6 +15,16 @@ Uma das etapas mais importantes em um ambiente de CI/CD, por exemplo, é a execu
 
 É muito comum que ao executar a nossa suíte de testes, cada cenário seja executado de forma isolada, um por vez. Porém, atualmente é praticamente regra que os nossos computadores possuam CPUs com capacidade de executar mais de um processo por vez, sendo assim, por que não executar mais de um teste por vez?
 
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-8918461095244552"
+data-ad-slot="2366637560"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Paralelização de testes
 
 Paralelismo é um assunto bastante complexo, mas a ideia de paralelizar uma suíte de testes é, na verdade, bem simples: executar mais de um caso de teste por vez, em processos separados.

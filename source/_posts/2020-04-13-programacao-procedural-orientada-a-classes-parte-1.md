@@ -13,6 +13,16 @@ Partindo desse pressuposto, também acredito que seja intenção de qualquer pes
 
 O problema acontece quando a gente vem de um aprendizado de programação procedural e tenta aplicar as mesmas técnicas fazendo uso de classes e objetos.
 
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-8918461095244552"
+data-ad-slot="2366637560"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Exemplo clássico
 
 Há um exemplo muito clássico de um código que claramente, embora utilize classes e objetos, é procedural:

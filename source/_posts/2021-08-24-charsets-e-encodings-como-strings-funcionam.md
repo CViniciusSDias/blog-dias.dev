@@ -19,6 +19,16 @@ Uma das tabelas de caracteres mais antigas que se tem conhecimento é a ASCII (_
 
 Isso funcionava muito bem para textos que usavam inglês como idioma (ou algum idioma com o mesmo conjunto de caracteres). Porém, diversos outros idiomas possuem caracteres que não estão representados nesta tabela. Caracteres acentuados, por exemplo, não estão na tabela ASCII. Como representar textos em português, por exemplo?
 
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-8918461095244552"
+data-ad-slot="2366637560"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Extended ASCII
 
 Como pudemos ver na imagem da tabela ASCII, os valores vão de 0 a 127. Isso pode ser representado com 7 _bits_. 

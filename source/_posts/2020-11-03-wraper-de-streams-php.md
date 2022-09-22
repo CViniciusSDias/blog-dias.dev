@@ -33,6 +33,16 @@ echo file_get_contents('file://arquivo.txt'); // lê um arquivo
 echo file_get_contents('http://google.com'); // faz uma requisição HTTP
 ```
 
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-8918461095244552"
+data-ad-slot="2366637560"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### Wrappers disponíveis
 
 Por padrão o PHP já fornece diversos wrappers como
