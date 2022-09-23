@@ -108,18 +108,11 @@ O código anterior poderia ser escrito da seguinte forma para usar o paradigma O
 
 class Pessoa
 {
-    private string $primeiroNome;
-    private string $ultimoNome;
-    private \DateTimeInterface $dataNascimento;
-
     public function __construct(
-        string $primeiroNome,
-        string $ultimoNome,
-        \DateTimeInterface $dataNascimento
+        private string $primeiroNome,
+        private string $ultimoNome,
+        private \DateTimeInterface $dataNascimento
     ) {
-        $this->primeiroNome = $primeiroNome;
-        $this->ultimoNome = $ultimoNome;
-        $this->dataNascimento = $dataNascimento;
     }
 
     public function nomeCompleto(): string
