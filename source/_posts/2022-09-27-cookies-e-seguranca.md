@@ -47,7 +47,7 @@ Além desses atributos "básicos", cookies podem possuir parâmetros extra. Algu
 - `Path`: Indica qual caminho deve existir na URL para que o _cookie_ seja enviado pelo navegador. Se o valor for `/docs`, o _cookie_ será enviado para URLs como `/docs`, `/docs/`, `/docs/web`, etc, mas não será enviado para URLs como `/`, `/documentos`, `/pt-br/docs`, etc.
 - `Secure`: Se esse parâmetro for definido, o _cookie_ só será enviado em requisições HTTPS.
 - `HttpOnly`: Proibe o acesso ao _cookie_ em questão através de JavaScript com `document.cookie`. 
-- `SameSite`: Com os possíveis valores sendo `Strict`, `Lax` e `None`, controla se o _cookie_ pode ser enviado em requisições "_cross-site_".
+- `SameSite`: Com os possíveis valores sendo `Strict`, `Lax` e `None`, controla se o _cookie_ pode ser enviado em requisições feitas a partir de outros sites para o do domínio do _cookie_.
 
 #### Exemplos de definições de _cookies_
 
