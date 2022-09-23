@@ -15,16 +15,6 @@ Primeiro, precisamos mesmo de uma loja? Por que não pesquisar diretamente no Go
 
 <img src="https://web-dev.imgix.net/image/tcFciHGuF3MxnTr1y5ue01OGLBn2/1DKtUFjXLJbiiruKA9P1.svg" alt="Gráfico mostrando a relação entre capacidade e alcance de PWAs e aplicações nativas e serviços web, onde PWAs possuem tanta capacidade quanto um aplicativo nativo e tanto alcance quanto um serviço Web" class="big-image" />
 
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-8918461095244552"
-data-ad-slot="2366637560"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ## O poder da Web
 
 A _Web_ evoluiu absurdamente nas últimas décadas e trouxe muito poder para nós _devs_. Coisas que antigamente seriam impensáveis sem instalar de forma "nativa" uma aplicação, hoje é trivial de ser feito diretamente no navegador. Alguns exemplos:
@@ -38,6 +28,16 @@ A _Web_ evoluiu absurdamente nas últimas décadas e trouxe muito poder para nó
 Hoje em dia é perfeitamente possível que após acessar um aplicativo _web_, os próximos acessos possam ser feitos sem uma conexão ativa com a _internet_. Além disso é muito comum aplicativos _web_ acessarem recursos nativos como localização, sistema de sons, baterias, etc.
 
 Aqui você pode conferir algumas _APIs Web_ para ter acesso a recursos que antigamente só eram possíveis através de aplicações nativas: https://developer.mozilla.org/en-US/docs/Web/API
+
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-8918461095244552"
+data-ad-slot="2366637560"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Aplicações progressivas
 
