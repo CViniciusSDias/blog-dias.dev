@@ -65,17 +65,17 @@ Set-Cookie: nome=valor; Max-Age=604800
 
 Já entendemos o que são, como funcionam e os parâmetros de _cookies_. Agora vamos finalmente ao tópico em questão: _cookies_ e segurança.
 
-Como já foi citado, sessões são um uso muito comum para _cookies_. As linguagens de back-end, inclusive, já lidam com esse detalhe de forma transparente na maioria das vezes. Agora imagine o seguinte cenário: através de um ataque de [XSS](https://www.youtube.com/watch?v=lntsVxPZibw) um usuário malicioso consegue acesso ao seu _cookie_ de sessão. Com isso ele conseguirá se passar por você e o estrago pode ser enorme.
-
 ### _Cookies_ e XSS
 
-Para prevenir que ataques XSS consigam acessar seus _cookies_ sensíveis (como o de sessão), podemos marcá-lo como `secure`. Dessa forma, código JavaScript nenhum terá acesso ao mesmo.
+Como já foi citado, sessões são um uso muito comum para _cookies_. As linguagens de back-end, inclusive, já lidam com esse detalhe de forma transparente na maioria das vezes. Agora imagine o seguinte cenário: através de um ataque de [XSS](https://www.youtube.com/watch?v=lntsVxPZibw) um usuário malicioso consegue acesso ao seu _cookie_ de sessão. Com isso ele conseguirá se passar por você e o estrago pode ser enorme.
+
+Para prevenir que ataques XSS consigam acessar seus _cookies_ sensíveis (como o de sessão), podemos marcá-lo como `HttpOnly`. Dessa forma, código JavaScript nenhum terá acesso ao mesmo.
 
 Claro que um sistema com vulnerabilidade a _XSS_ está em GRANDES riscos, mas para evitar _session hijacking_, tornar o _cookie_ `HttpOnly` já é um grande passo.
 
 Como já foi explicado anteriormente, o parâmetro `HttpOnly` impede que o _cookie_ em questão seja acessado via `document.cookie`. Mas caso você precise realizar requisições via JavaScript, saiba que a função `fetch` vai conseguir enviar os mesmos sem problema. :-D
 
-Cada linguagem back-end pode fornecer suas facilidades para definir o _cookie_ de sessão como `secure`. No PHP, por exemplo, além da função `session_set_cookie_params`, há configurações como a `session.cookie_httponly`. O cabeçalho de um _cookie_ `HttpOnly` seria parecido com:
+Cada linguagem back-end pode fornecer suas facilidades para definir o _cookie_ de sessão como `HttpOnly`. No PHP, por exemplo, além da função `session_set_cookie_params`, há configurações como a `session.cookie_httponly`. O cabeçalho de um _cookie_ `HttpOnly` seria parecido com:
 
 ```
 Set-Cookie: sessionId=123456; HttpOnly
