@@ -116,7 +116,7 @@ Set-Cookie: sessionId=123456; HttpOnly; SameSite=Lax; Secure
 
 Repare que o uso correto dos parâmetros dos _cookies_ já nos protege de diversos ataques. Obviamente apenas cuidar dos nossos _cookies_ não é o suficiente para ter um sistema verdadeiramente seguro. Precisamos nos atentar a diversos outros fatores e possíveis vulnerabilidades. Além disso, _cookies_ de sessão não são os únicos a serem cuidados. _Tokens_ geralmente são armazenados como _cookies_ também e todos esses cuidados devem ser tomados.
 
-Se segurança é um assunto que te interessa, recomendo essa _playlist_ com alguns vídeos básicos sobre o assunto: https://www.youtube.com/playlist?list=PL3j2sfzg3FPuOOt13tOcNTx6hCFYcQls9
+Se segurança é um assunto que te interessa, recomendo essa _playlist_ com alguns vídeos básicos sobre o assunto: <https://www.youtube.com/playlist?list=PL3j2sfzg3FPuOOt13tOcNTx6hCFYcQls9>
 
 Se quiser se aprofundar, na Alura há diversos cursos e formações sobre o tema de segurança. Aqui está um cupom de desconto para assinar a plataforma:
-https://www.alura.com.br/promocao/diasdedev
+<https://www.alura.com.br/promocao/diasdedev>
