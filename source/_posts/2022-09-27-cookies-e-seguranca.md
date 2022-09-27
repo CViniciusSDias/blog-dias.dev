@@ -99,7 +99,7 @@ Para impedir que a partir de um site, _cookies_ sejam enviados para outro, podem
 Set-Cookie: sessionId=123456; HttpOnly; SameSite=Lax
 ```
 
-Agora nosso _cookie_ além de não ser mais acessível via JavaScript, só é enviado em requisições realizadas a partir do nosso próprio site.
+Agora nosso _cookie_ além de não ser mais acessível via JavaScript, só é enviado em requisições realizadas a partir do nosso próprio site. Talvez você esteja se perguntando: se `Lax` já é o padrão, por que me preocupar? Acontece que algumas linguagens ou frameworks back-end podem alterar esse padrão por diversos motivos. Por isso é importante saber como usar esse parâmetro.
 
 ### _Cookies_ e ataques _Man in the middle_
 
