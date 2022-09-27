@@ -41,6 +41,7 @@ data-ad-slot="2366637560"></ins>
 Entendido o funcionamento básico e onde encontrá-los, vamos analisar quais informações um _cookie_ pode conter. Todo cookie possui, necessariamente, um nome e um valor. O nome é, como você deve imaginar, a forma que usamos para identificar a informação que esse cookie carrega em seu valor. Um _cookie_ de sessão, por exemplo, geralmente possui a palavra _session_ em seu nome enquanto seu valor será o ID da sessão.
 
 Além desses atributos "básicos", cookies podem possuir parâmetros extra. Alguns deles são:
+
 - `Expires`: Define a data e hora de expiração do cookie. Se esse parâmetro não for definido, o _cookie_ será considerado como "_cookie_ de sessão" e irá expirar quando o navegador for fechado.
 - `Max-Age`: Similar ao `Expires`, também define quando um _cookie_ vai expirar, mas em segundos. Se os 2 parâmetros forem informados, `Max-Age` possui prioridade.
 - `Domain`: Define para qual host o _cookie_ será enviado pelo navegador. Se esse parâmetro não for definido, o _cookie_ será enviado somente para o host da URL atual, não incluindo sub-domínios. Se um valor como `example.com` for definido, o _cookie_ será enviado nas requisições para `example.com` e todos os seus sub-domínios.
