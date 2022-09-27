@@ -1,7 +1,7 @@
 ---
 title: "Cookies e segurança"
 date: "2022-09-27"
-description: ""
+description: "Cookies podem ser utilizados para armazenar dados sensíveis. Veja nesse artigo como lidar com a segurança de nossos cookies e proteger esses dados."
 tags: ["Front", "Cookies", "Segurança", "Dias de Dev"]
 categories: ["Front", "Conceitos"]
 ---
