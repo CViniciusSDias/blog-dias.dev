@@ -3,7 +3,7 @@ title: "Cookies e segurança"
 date: "2022-09-27"
 description: "Cookies podem ser utilizados para armazenar dados sensíveis. Veja nesse artigo como lidar com a segurança de nossos cookies e proteger esses dados."
 tags: ["Front", "Cookies", "Segurança", "Dias de Dev"]
-categories: ["Front", "Conceitos"]
+categories: ["Front", "Web", "Conceitos"]
 ---
 
 _Cookies_ são amplamente utilizados para armazenar informações em nossos navegadores e muitas vezes nós negligenciamos a segurança dessas informações. Cookies podem conter dados sensíveis como sua informação de sessão, por exemplo, por isso devemos nos preocupar com seu armazenamento.
