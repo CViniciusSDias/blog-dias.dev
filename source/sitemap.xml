@@ -14,7 +14,7 @@ permalink: sitemap.xml
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc>
     <lastmod>{{ post.date|date('c') }}</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>Never</changefreq>
     <priority>1.0</priority>
   </url>
   {% endfor %}
