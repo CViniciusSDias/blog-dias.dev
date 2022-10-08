@@ -3,4 +3,4 @@ permalink: none
 ---
 
 User-agent: *
-Sitemap: {{ site.url }}sitemap.xml
+Sitemap: {{ site.url }}/sitemap.xml
