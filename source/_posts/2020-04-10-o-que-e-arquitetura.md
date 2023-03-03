@@ -1,5 +1,5 @@
 ---
-title: O que é arquitetura
+title: "O que é arquitetura"
 date: "2020-04-10"
 description: "O que é Arquitetura? E design de código, é a mesma coisa? Nesse post você vai entender o básico do que é Arquitetura de Software e alguns casos reais de aplicação."
 tags: ["Arquitetura de software", "Design de código", "Dias de Dev"]
