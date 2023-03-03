@@ -20,7 +20,7 @@ foreach ($files as $file) {
 
         $remainingOfTheTitle = substr($title, offset: strlen($currentLine));
         $title = trim($remainingOfTheTitle);
-    } while ($title);
+    } while (!empty($title));
 
     imagepng($image, __DIR__ . '/source/assets/img/thumbs/' . basename($file, '.md') . '.png');
 
