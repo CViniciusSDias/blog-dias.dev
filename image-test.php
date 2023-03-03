@@ -18,7 +18,8 @@ foreach ($files as $file) {
         $currentLine = getLineFromTitle($title);
         writeLineToImage($image, $iteration++, $textColor, $currentLine);
 
-        $title = trim(substr($title, strlen($currentLine)));
+        $remainingOfTheTitle = substr($title, offset: strlen($currentLine));
+        $title = trim($remainingOfTheTitle);
     } while ($title);
 
     imagepng($image, __DIR__ . '/source/assets/img/thumbs/' . basename($file, '.md') . '.png');
