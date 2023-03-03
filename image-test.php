@@ -15,10 +15,10 @@ foreach ($files as $file) {
 
     $iteration = 0;
     do {
-        $text = getLineFromTitle($title);
-        writeLineToImage($image, $iteration++, $textColor, $text);
+        $currentLine = getLineFromTitle($title);
+        writeLineToImage($image, $iteration++, $textColor, $currentLine);
 
-        $title = trim(substr($title, strlen($text)));
+        $title = trim(substr($title, strlen($currentLine)));
     } while ($title);
 
     imagepng($image, __DIR__ . '/source/assets/img/thumbs/' . basename($file, '.md') . '.png');
