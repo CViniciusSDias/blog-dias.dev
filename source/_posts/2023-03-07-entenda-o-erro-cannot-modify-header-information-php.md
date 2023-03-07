@@ -40,6 +40,16 @@ Existem também funções no PHP que podem enviar ou modificar cabeçalhos. Algu
 - `setcookie`
 - etc
 
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-8918461095244552"
+data-ad-slot="2366637560"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Entendendo o problema
 
 Como foi dito logo na introdução desse _post_, o problema "_Cannot modify header information - headers already sent_" acontece quando tentamos enviar um cabeçalho _HTTP_ após já termos enviado algo no corpo da resposta.

@@ -32,6 +32,16 @@ Repare que no exemplo acima, o arquivo "principal" é o `php.ini` encontrado na 
 
 Você deve ter notado que os arquivos "extra" de configuração possuem um número como prefixo (`10-opcache.ini` e `10-pdo.ini`). Esse número **não** tem um significado especial para o PHP, mas nos permite ordenar os arquivos por prioridade. O PHP vai carregar os arquivos `.ini` do diretório configurado em ordem alfabetica, sendo assim, números são adicionados para nós podermos definir a prioridade de carregamento de cada arquivo. Quanto maior o número, "mais depois" ele será carregado, fazendo com que suas definições sejam aplicadas por último, sobrescrevendo as anteriores caso hajam configurações duplicadas.
 
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-8918461095244552"
+data-ad-slot="2366637560"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## O que pode ser configurado pelo php.ini
 
 Existem muitas configurações diferentes que podem ser definidas no arquivo `php.ini`. Algumas das configurações mais comuns incluem:
