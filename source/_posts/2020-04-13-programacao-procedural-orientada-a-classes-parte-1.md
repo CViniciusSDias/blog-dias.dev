@@ -1,5 +1,5 @@
 ---
-title: Programação procedural orientada a classes - Parte 1
+title: "Programação procedural orientada a classes - Parte 1"
 date: "2020-04-13"
 description: "A programação orientada a objetos é muito citada e utilizada, mas será que você está fazendo da forma correta? Será que não está apenas usando classes na programação procedural?"
 tags: ["Programação procedural", "Orientação a objetos", "Dias de Dev"]

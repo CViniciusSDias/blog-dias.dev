@@ -1,5 +1,5 @@
 ---
-title: PHP assíncrono de forma nativa
+title: "PHP assíncrono de forma nativa"
 date: "2020-09-16"
 description: "O PHP é uma linguagem de programação completa e programação assíncrona não é algo que falta na linguagem. Nesse post eu mostro como atingir este objetivo sem nenhum componente externo"
 tags: ["PHP", "Assíncrono", "Paralelo", "I/O Não bloqueante", "Dias de Dev"]

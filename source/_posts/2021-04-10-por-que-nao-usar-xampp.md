@@ -1,5 +1,5 @@
 ---
-title: Por que não usar XAMPP
+title: "Por que não usar XAMPP"
 date: "2021-04-10"
 description: "Há diversas formas de trabalharmos com PHP e infelizmente uma das mais ensinadas é através do XAMPP. Neste artigo vamos resopnder a pergunta “Por que não usar XAMPP?”"
 tags: ["PHP", "XAMPP", "Dias de Dev"]

@@ -1,5 +1,5 @@
 ---
-title: Princípios ou Ferramentas - O que estudar
+title: "Princípios ou Ferramentas - O que estudar"
 date: "2020-04-23"
 description: "O início no mundo de desenvolvimento não é fácil. Estudar um framework específico, uma ou várias linguagens? Nesse artigo eu comento sobre práticas e princípios a se estudar"
 tags: ["Estudo", "Programação", "Linguagens de programação", "Frameworks", "Dias de Dev"]
