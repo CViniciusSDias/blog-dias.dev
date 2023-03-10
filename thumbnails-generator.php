@@ -10,6 +10,7 @@ foreach ($files as $file) {
     $image = imagecreate(1200, 630);
     $backgroundColor = imagecolorallocate($image, 82, 193, 150);
     imagefill($image, 0, 0, $backgroundColor);
+    unset($backgroundColor);
 
     $textColor = imagecolorallocate($image, 255, 255, 255);
 
