@@ -4,6 +4,7 @@ date: "2021-06-15"
 description: "PHP é uma linguagem famosa pelo seu uso na Web. Mas como o PHP realmente funciona na Web?"
 tags: ["PHP", "Web", "Back-end", "Dias de Dev"]
 categories: ["PHP", "Web"]
+video: true
 ---
 O PHP é o que conhecemos como linguagem _server-side_, ou seja, ele roda nos servidores web, e não nos navegadores.
 
@@ -15,7 +16,11 @@ Antes de falarmos sobre o papel do PHP na Web, é muito importante entendermos c
 
 Neste vídeo eu expliquei um pouco de como funciona o processo desde quando damos _Enter_ em nosso navegador até termos uma resposta em nossa tela. Vale a pena conferir antes de continuar lendo este artigo:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/B2IWlnJ_dt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<lite-youtube videoid="B2IWlnJ_dt0" style="background-image: url('https://i.ytimg.com/vi/B2IWlnJ_dt0/hqdefault.jpg');">
+    <a href="https://youtube.com/watch?v=B2IWlnJ_dt0" class="lty-playbtn" title="Reproduzir vídeo">
+        <span class="lyt-visually-hidden">Reproduzir vídeo: Como funciona a Web? - A internet por baixo dos panos | Dias de Dev</span>
+    </a>
+</lite-youtube>
 
 Existem várias outras referências (inclusive mais completas) para você conhecer as tecnologias por trás da Web. Vou deixar aqui algumas referências:
 - [Desconstruindo a Web: As tecnologias por trás de uma requisição](https://amzn.to/3lzFVkD)

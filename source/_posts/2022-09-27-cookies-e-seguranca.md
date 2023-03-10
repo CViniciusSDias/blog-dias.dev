@@ -4,6 +4,7 @@ date: "2022-09-27"
 description: "Cookies podem ser utilizados para armazenar dados sensíveis. Veja nesse artigo como lidar com a segurança de nossos cookies e proteger esses dados."
 tags: ["Front", "Cookies", "Segurança", "Dias de Dev"]
 categories: ["Front", "Web", "Conceitos"]
+video: true
 ---
 
 _Cookies_ são amplamente utilizados para armazenar informações em nossos navegadores e muitas vezes nós negligenciamos a segurança dessas informações. Cookies podem conter dados sensíveis como sua informação de sessão, por exemplo, por isso devemos nos preocupar com seu armazenamento.
@@ -14,7 +15,11 @@ Um _cookie_ é, basicamente, uma informação de texto enviada pelo servidor de 
 
 Se você não está familiarizado com o protocolo HTTP, pode conferir este vídeo antes de continuar a leitura:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/B2IWlnJ_dt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<lite-youtube videoid="B2IWlnJ_dt0" style="background-image: url('https://i.ytimg.com/vi/B2IWlnJ_dt0/hqdefault.jpg');">
+    <a href="https://youtube.com/watch?v=B2IWlnJ_dt0" class="lty-playbtn" title="Reproduzir vídeo">
+        <span class="lyt-visually-hidden">Reproduzir vídeo: Como funciona a Web? - A internet por baixo dos panos | Dias de Dev</span>
+    </a>
+</lite-youtube>
 
 Dessa forma um servidor pode, por exemplo, ao receber as credenciais do usuário, gerar um ID único e enviar através de cookies. A partir disso, todas as requisições futuras que o navegador fizer conterão essa identificação do usuário. Assim funciona o mecanismo de sessões que nos permite permanecer logados em sites.
 

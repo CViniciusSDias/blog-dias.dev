@@ -4,6 +4,7 @@ date: "2020-04-16"
 description: "Neste post nós vamos continuar a provocação sobre: será que você está usando programação orientada a objetos da forma correta? Será que não está apenas usando classes na programação procedural?"
 tags: ["Programação procedural", "Orientação a objetos", "Dias de Dev"]
 categories: ["Conceitos"]
+video: true
 ---
 ## Design de código
 
@@ -129,7 +130,11 @@ Outra característica de programação procedural nesse caso é que muito comume
 
 No canal _Dev Eficiente_, do Aberto Souza, tem um vídeo falando um pouco mais sobre o problema deste tipo de classe, mas sob uma outra ótica. Vale a pena conferir:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/szGb93_hXgI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<lite-youtube videoid="szGb93_hXgI" style="background-image: url('https://i.ytimg.com/vi/szGb93_hXgI/hqdefault.jpg');">
+    <a href="https://youtube.com/watch?v=szGb93_hXgI" class="lty-playbtn" title="Reproduzir vídeo">
+        <span class="lyt-visually-hidden">Reproduzir vídeo: Paradigmas de Programação | Programando com Vinicius Dias</span>
+    </a>
+</lite-youtube>
 
 ## Camada Model do MVC
 

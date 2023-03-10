@@ -4,6 +4,7 @@ date: "2020-04-23"
 description: "O início no mundo de desenvolvimento não é fácil. Estudar um framework específico, uma ou várias linguagens? Nesse artigo eu comento sobre práticas e princípios a se estudar"
 tags: ["Estudo", "Programação", "Linguagens de programação", "Frameworks", "Dias de Dev"]
 categories: ["Conceitos"]
+video: true
 ---
 ## O mundo de desenvolvimento
 
@@ -62,7 +63,12 @@ Este post (em inglês) fala com bem mais de detalhes sobre os principais paradig
 https://dev.to/vplentinax/classification-of-computer-languages-ii-2201
 
 Se você (assim como eu) prefere vídeos, pode conferir este aqui:
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/asFnD-JLFWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<lite-youtube videoid="asFnD-JLFWs" style="background-image: url('https://i.ytimg.com/vi/asFnD-JLFWs/hqdefault.jpg');">
+    <a href="https://youtube.com/watch?v=asFnD-JLFWs" class="lty-playbtn" title="Reproduzir vídeo">
+        <span class="lyt-visually-hidden">Reproduzir vídeo: Paradigmas de Programação | Programando com Vinicius Dias</span>
+    </a>
+</lite-youtube>
 
 ## Princípios
 

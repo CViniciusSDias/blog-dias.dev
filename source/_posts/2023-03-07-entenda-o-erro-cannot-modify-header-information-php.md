@@ -4,6 +4,7 @@ date: "2023-03-07"
 description: "Entenda o erro \"Cannot modify header information - headers already sent\" no PHP e como evitá-lo em seu código. Saiba o que é HTTP e como funciona na web, além de funções PHP que podem enviar ou modificar cabeçalhos."
 tags: ["PHP", "HTTP", "cabeçalhos", "erro", "resposta", "corpo", "cabeçalhos já enviados", "echo", "header", "session_start", "setcookie"]
 categories: ["PHP"]
+video: true
 ---
 
 O famoso erro do PHP com o texto "_Cannot modify header information - headers already sent_" acontece quando tentamos enviar um cabeçalho _HTTP_ após já termos enviado alguma saída no corpo da resposta. Nesse post nós vamos entender o que isso tudo significa e como evitar esse problema em seu código.
@@ -20,7 +21,11 @@ O corpo de uma resposta, por exemplo, é o conteúdo que você vê na tela, enqu
 
 Esse é um resumo bem conciso do protocolo _HTTP_ e de **como a internet funciona**. Ainda sobre esse assunto, caso você tenha alguma dúvida ou queira entender melhor, eu tenho um vídeo no YouTube. Você pode conferí-lo antes de continuar lendo esse post:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/B2IWlnJ_dt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<lite-youtube videoid="B2IWlnJ_dt0" style="background-image: url('https://i.ytimg.com/vi/B2IWlnJ_dt0/hqdefault.jpg');">
+  <a href="https://youtube.com/watch?v=B2IWlnJ_dt0" class="lty-playbtn" title="Reproduzir vídeo">
+    <span class="lyt-visually-hidden">Play Video: Keynote (Google I/O '18)</span>
+  </a>
+</lite-youtube>
 
 ## Como o PHP funciona
 
