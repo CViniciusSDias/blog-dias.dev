@@ -23,7 +23,8 @@ Esse é um resumo bem conciso do protocolo _HTTP_ e de **como a internet funcion
 
 <lite-youtube videoid="B2IWlnJ_dt0" style="background-image: url('https://i.ytimg.com/vi/B2IWlnJ_dt0/hqdefault.jpg');">
   <a href="https://youtube.com/watch?v=B2IWlnJ_dt0" class="lty-playbtn" title="Reproduzir vídeo">
-    <span class="lyt-visually-hidden">Play Video: Keynote (Google I/O '18)</span>
+    <span class="lyt-visually-hidden">Play Video: Como funciona a Web? - A internet por baixo dos panos | Dias de Dev
+</span>
   </a>
 </lite-youtube>
 
