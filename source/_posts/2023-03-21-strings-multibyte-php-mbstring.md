@@ -7,7 +7,7 @@ categories: ["PHP"]
 video: true
 ---
 
-_Strings multibyte_ são textos que possuem alguns caracteres que demandam mais de um _byte_ para serem representados. Há um post aqui no blog onde nós falamos sobre [Charsets e Encodings: Como strings funcionam]((/2021-08-24-charsets-e-encodings-como-strings-funcionam/)). Agora nós vamos entender como lidar com _strings multibyte_ em PHP usando a [extensão](/2022-02-13-extensoes-php/) `mbstring`.
+_Strings multibyte_ são textos que possuem alguns caracteres que demandam mais de um _byte_ para serem representados. Há um post aqui no blog onde nós falamos sobre [Charsets e Encodings: Como strings funcionam](/2021-08-24-charsets-e-encodings-como-strings-funcionam/). Agora nós vamos entender como lidar com _strings multibyte_ em PHP usando a [extensão](/2022-02-13-extensoes-php/) `mbstring`.
 
 ## Operações em strings
 
