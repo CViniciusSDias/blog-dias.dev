@@ -60,7 +60,7 @@ Uma solução para esse caso é salvar as tarefas que você quer executar em uma
 
 O motivo de eu fazer essa explicação de forma mais simples e resumida é que eu já gravei um vídeo explicando a ideia de processamento assíncrono e **mensageria**. Você pode conferir a ideia de programação assíncrona nesse contexto no vídeo abaixo.
 
-<lite-youtube videoid="Rx80QRZRgHc" style="background-image: url('https://i.ytimg.com/vi/al47Lz_SWLc/hqdefault.jpg');">
+<lite-youtube videoid="Rx80QRZRgHc" style="background-image: url('https://i.ytimg.com/vi/Rx80QRZRgHc/hqdefault.jpg');">
     <a href="https://youtube.com/watch?v=Rx80QRZRgHc" class="lty-playbtn" title="Reproduzir vídeo">
         <span class="lyt-visually-hidden">
             Processamento assíncrono com mensageria - Escalando aplicações Web | Dias de Dev
@@ -141,7 +141,7 @@ No mundo _Web_ é muito mais comum você precisar de I/O não bloqueante (ou pro
 
 Durante o texto eu deixei alguns links que podem ajudar a entender alguns conceitos específicos, mas quero deixar aqui mais duas referências muito importantes. A seguir possui um dos primeiros vídeos que gravei para meu canal, explicando justamente a diferença entre os termos e quando nós devemos usar cada uma dessas técnicas:
 
-<lite-youtube videoid="zLfXPSeCkB8" style="background-image: url('https://i.ytimg.com/vi/al47Lz_SWLc/hqdefault.jpg');">
+<lite-youtube videoid="zLfXPSeCkB8" style="background-image: url('https://i.ytimg.com/vi/zLfXPSeCkB8/hqdefault.jpg');">
     <a href="https://youtube.com/watch?v=zLfXPSeCkB8" class="lty-playbtn" title="Reproduzir vídeo">
         <span class="lyt-visually-hidden">
             Programação assíncrona vs Programação paralela - Entenda a diferença
