@@ -37,11 +37,11 @@ css_file: index
 {% endfor %}
 {% if page.pagination.previous_page or page.pagination.next_page %}
     <nav class="index-footer">
-        {% if page.pagination.previous_page %}
-        <a href="{{ page.pagination.previous_page.url }}">Publicações mais recentes</a>
-        {% endif %}
         {% if page.pagination.next_page %}
         <a href="{{ page.pagination.next_page.url }}">Publicações mais antigas</a>
+        {% endif %}
+        {% if page.pagination.previous_page %}
+        <a href="{{ page.pagination.previous_page.url }}">Publicações mais recentes</a>
         {% endif %}
     </nav>
 {% endif %}
