@@ -96,7 +96,7 @@ echo "Já esse código é executado na thread principal" . PHP_EOL;
 
 Outra forma muito comum de atingir a programação paralela é a criação de processos ao invés de _threads_. Um processo é basicamente um programa em execução no seu sistema operacional. Todo processo possui pelo menos uma _thread_. Ao criar um novo processo, como há pelo menos uma _thread_ criada também, se torna possível a execução paralela novamente, porém há algumas diferenças importantes.
 
-Todo processo no sistema operacional possui um endereço de memória separado. Ao criar _threads_, esse endereço de memória é compartilhado (já que as _threads_ fazem parte do mesmo processo), logo, compartilhar dados entre threads é uma tarefa fácil. Agora ao criar um novo processo, um novo endereço de memória é separado. Compartilhar memória entre processos é uma tarefa mais trabalhosa.
+Todo processo no sistema operacional possui um endereço de memória separado. Ao criar _threads_, esse endereço de memória é compartilhado (já que as _threads_ fazem parte do mesmo processo), logo, compartilhar dados entre threads é uma tarefa fácil. Agora, ao criar um novo processo, um novo endereço de memória é separado. Compartilhar memória entre processos é uma tarefa mais trabalhosa.
 
 Para criar um novo processo, há uma função em `C` chamada `fork`, que clona o processo atual e continua a execução no processo filho a partir da linha seguinte. Exemplo.:
 
@@ -133,7 +133,7 @@ Então, resumindo, quando o assunto é realmente código, nós temos I/O não bl
 
 Acredito que pelo uso do termo I/O não bloqueante, a resposta já tenha ficado clara. Sempre que a operação demorada envolver I/O, sua resposta estará na programação assíncrona. Com isso você consegue executar tarefas enquanto operações como chamadas de rede e leitura de arquivos estão sendo realizadas, mas sem o custo adicional de criar novas _threads_ ou processos.
 
-Já a programação paralela é usada quando você possui tarefas demoradas que demandam computação intensa e muito uso da CPU. Cálculos matemáticos complexos, manipulações de imagem e vídeo são alguns exemplos onde programação paralela se fazem necessárias.
+Já a programação paralela é usada quando você possui tarefas demoradas que demandam computação intensa e muito uso da CPU. Cálculos matemáticos complexos, manipulações de imagem e vídeo são alguns exemplos onde programação paralela se faz necessária.
 
 No mundo _Web_ é muito mais comum você precisar de I/O não bloqueante (ou programação assíncrona), por isso o _JavaScript_ possui _Promises_ nativamente e ferramentas como _ReactPHP_ e _Swoole_ existem no ecossistema PHP para trazerem implementações de _Event Loops_. Já ao realizar o processamento assíncrono usando mensageria, suas tarefas de plano de fundo podem realizar processamentos pesados, onde talvez o uso de programação paralela possa ser vantajoso.
 
@@ -154,4 +154,4 @@ https://alura.tv/diasdedev
 
 ## Conclusão
 
-Programação paralela é o que permite a execução simultânea de mais de uma porção de código, podendo cada uma estar em um núcleo da CPU, por exemplo. Essa técnica é muito útil quando temos tarefas intensas em processamento como cálculos complexos e manipulação de imagens. Já programação assíncrona é extremamente importante ao lidar com entrada e saída (I/O), já que permite que executemos tarefas sem bloquear a CPU esperando por respostas de I/O. Programação concorrente é um termo que pode ser definido de diversas formas, onde cada autor descreve essa ideia de forma diferente, indo desde um sinônimo para programação assíncrona até técnicas de compartilhamento de recursos em programação paralela.
+Programação paralela é o que permite a execução simultânea de mais de uma porção de código, podendo cada uma estar em um núcleo da CPU, por exemplo. Essa técnica é muito útil quando temos tarefas intensas em processamento como cálculos complexos e manipulação de imagens. Já a programação assíncrona é extremamente importante ao lidar com entrada e saída (I/O), já que permite que executemos tarefas sem bloquear a CPU esperando por respostas de I/O. Programação concorrente é um termo que pode ser definido de diversas formas, onde cada autor descreve essa ideia de forma diferente, indo desde um sinônimo para programação assíncrona até técnicas de compartilhamento de recursos em programação paralela.
