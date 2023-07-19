@@ -59,7 +59,7 @@ $conteudoDoArquivo5 = file_get_contents('arquivo5.txt');
 // Processar os 5 arquivos
 ```
 
-O problema nessa abordagem é óbvio: Antes de ler o `arquivo2.txt` precisamos terminar de ler todo o conteúdo de `arquivo1.txt`. Enquanto o computador espera, nós já poderíamos estar sendo os demais arquivos e os processando de forma individual.
+O problema nessa abordagem é óbvio: Antes de ler o `arquivo2.txt` precisamos terminar de ler todo o conteúdo de `arquivo1.txt`. Enquanto o computador espera, nós já poderíamos estar lendo os demais arquivos e os processando de forma individual.
 
 Quando temos uma operação de I/O (acesso a arquivos, rede, etc) sendo realizada de forma síncrona, o processador fica ocioso enquanto a operação não é executada. Ou seja, enquanto o arquivo estiver sendo carregado, o processador fica esperando, sem fazer nada. É exatamente isso que queremos evitar. Queremos garantir que ele continue trabalhando enquanto o arquivo não estiver pronto para leitura.
 
