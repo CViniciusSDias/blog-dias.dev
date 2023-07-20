@@ -12,10 +12,9 @@ Encore
         from: './source/assets/img'
     })
     .addEntry('app', './source/assets/js/app.js')
-    .addEntry('lite-yt-embed-script', 'lite-youtube-embed/src/lite-yt-embed.js')
+    .addEntry('lite-yt-embed-script', '@justinribeiro/lite-youtube/lite-youtube.js')
     .addStyleEntry('index', './source/assets/css/index.scss')
     .addStyleEntry('post', './source/assets/css/post.scss')
-    .addStyleEntry('lite-yt-embed-style', 'lite-youtube-embed/src/lite-yt-embed.css')
 
     .disableSingleRuntimeChunk()
 

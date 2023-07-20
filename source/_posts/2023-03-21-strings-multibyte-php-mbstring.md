@@ -63,7 +63,7 @@ echo mb_convert_encoding('string em ISO-8859-1', 'UTF-8', 'ISO-8859-1');
 
 Quem me acompanha já sabe que as funções `utf8_encode` e `utf8_decode` serão marcadas como **obsoletas** no PHP 8.2. Quem ainda não sabia disso pode conferir o vídeo a seguir:
 
-<lite-youtube videoid="B2IWlnJ_dt0" style="background-image: url('https://i.ytimg.com/vi/al47Lz_SWLc/hqdefault.jpg');">
+<lite-youtube videoid="al47Lz_SWLc" style="background-image: url('https://i.ytimg.com/vi/al47Lz_SWLc/hqdefault.jpg');">
     <a href="https://youtube.com/watch?v=al47Lz_SWLc" class="lty-playbtn" title="Reproduzir vídeo">
         <span class="lyt-visually-hidden">Novidades do PHP 8.2: Descontinuação de utf8_encode e utf8_decode | Dias de Dev</span>
     </a>
