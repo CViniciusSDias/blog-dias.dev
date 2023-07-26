@@ -122,4 +122,4 @@ Durante o artigo eu deixei alguns links, mas aproveito para deixar algumas refer
 - Post aqui no blog sobre Extensões PHP: [https://dias.dev/2022-02-13-extensoes-php/](/2022-02-13-extensoes-php/)
 - Vídeo no meu canal sobre _Opcache_: <https://youtu.be/6vEspHqjrkI>
 - Documentação sobre as diretivas do `php.ini`: <https://www.php.net/manual/en/ini.php>
-- Cupom de desconto na Alura para você se aprofundar em PHP: <https://alura.com.br/promocao/diasdedev>
+- Cupom de desconto na Alura para você se aprofundar em PHP: <https://alura.tv/diasdedev>

@@ -87,4 +87,4 @@ Se você também prefere esse tipo de conteúdo, pode dar uma olhada nesse livro
 </div>
 
 Agora se você prefere estudar através de cursos e vídeos, super recomendo os treinamentos de front-end e de PWA da Alura. Lá você consegue toda a base para desenvolver uma PWA de forma profissional, aprendendo desde a base, passando por _JavaScript_ avançado e _APIs Web_, até _PWAs_ de fato. Se for o seu caso, aqui tenho um cupom de 10% de desconto para estudar na Alura:
-[https://www.alura.com.br/promocao/diasdedev](https://www.alura.com.br/promocao/diasdedev)
+[https://alura.tv/diasdedev](https://alura.tv/diasdedev)

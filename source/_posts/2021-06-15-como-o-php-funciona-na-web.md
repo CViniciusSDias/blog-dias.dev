@@ -26,7 +26,7 @@ Existem várias outras referências (inclusive mais completas) para você conhec
 - [Desconstruindo a Web: As tecnologias por trás de uma requisição](https://amzn.to/3lzFVkD)
 - [HTTP: The Definitive Guide](https://amzn.to/35k9rT1)
 - [Learning Http/2: A Practical Guide for Beginners](https://amzn.to/3gEgz22)
-- [Cursos de HTTP na Alura](https://www.alura.com.br/promocao/diasdedev)
+- [Cursos de HTTP na Alura](https://alura.tv/diasdedev)
 
 Com esse conhecimento, já podemos partir para o foco deste artigo: como o **PHP** funciona na Web?
 
@@ -106,4 +106,4 @@ Atualmente as 2 opções aceitáveis são utilizando PHP-FPM ou algum servidor a
 
 No caso do PHP-FPM precisamos de um servidor para receber as requisições HTTP e enviar as chamadas para o PHP com FastCGI. No caso de um servidor auto-contido, podemos ter um proxy reverso servindo os arquivos estáticos e realizando cache, por exemplo, enquanto o servidor auto-contido responde apenas as requisições realmente necessárias.
 
-Se você quiser aprender mais sobre algum desses assuntos, pode considerar assinar a Alura. Lá existem treinamentos (gravados por mim) sobre Nginx, ReactPHP, Swoole e muito mais. Caso pretenda estudar na Alura, [neste link](https://www.alura.com.br/promocao/diasdedev) você tem um desconto de 10%.
+Se você quiser aprender mais sobre algum desses assuntos, pode considerar assinar a Alura. Lá existem treinamentos (gravados por mim) sobre Nginx, ReactPHP, Swoole e muito mais. Caso pretenda estudar na Alura, [neste link](https://alura.tv/diasdedev) você tem um desconto de 10%.

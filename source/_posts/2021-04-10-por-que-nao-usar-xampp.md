@@ -128,7 +128,7 @@ Se preferir em Português, [PHP Moderno](https://amzn.to/3dLk4lx). Esse livro é
 trata da evolução da linguagem sem entrar nos detalhes de sintaxes de 2016 pra cá.
 
 A partir daí, caso você tenha aprendido a usar o PHP 5, se atualize nas novidades da linguagem. No momento da escrita
-deste post nós estamos na [versão 8](https://www.youtube.com/playlist?list=PL3j2sfzg3FPuQXklYI2LumuG7jgZsj7cK). 
+deste post nós estamos na [versão 8](https://youtube.com/playlist?list=PL3j2sfzg3FPuQXklYI2LumuG7jgZsj7cK). 
 
 ## Conclusão
 
@@ -139,4 +139,4 @@ Porém há 10 anos Apache não é mais necessário para um ambiente simples de a
 for um servidor de produção, XAMPP nunca foi uma alternativa viável. Sendo assim, para desenvolvedores PHP, não há
 motivos válidos para uso do XAMPP nos dias atuais.
 
-Se você quiser aprender mais sobre algum desses assuntos, pode considerar assinar a Alura. Lá existem treinamentos (gravados por mim) sobre PHP, Nginx e muito mais. Caso pretenda estudar na Alura, [neste link](https://www.alura.com.br/promocao/diasdedev) você tem um desconto de 10%.
+Se você quiser aprender mais sobre algum desses assuntos, pode considerar assinar a Alura. Lá existem treinamentos (gravados por mim) sobre PHP, Nginx e muito mais. Caso pretenda estudar na Alura, [neste link](https://alura.tv/diasdedev) você tem um desconto de 10%.

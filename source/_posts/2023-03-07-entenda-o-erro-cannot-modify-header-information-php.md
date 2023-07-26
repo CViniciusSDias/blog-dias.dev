@@ -95,4 +95,4 @@ Para isso, você pode:
 
 Um dos erros mais conhecidos do mundo PHP, embora assustador, não é tão difícil de resolver. Com esse post você deve ter as informações necessárias para não se deparar com ele novamente e para resolver o problema caso o encontre.
 
-Caso queira se aprofundar e conhecer ainda mais nos estudos sobre PHP, aqui tem um cupom de desconto para assinar a Alura, plataforma de cursos online onde eu sou o instrutor da maioria dos cursos de PHP: <https://alura.com.br/promocao/diasdedev>
+Caso queira se aprofundar e conhecer ainda mais nos estudos sobre PHP, aqui tem um cupom de desconto para assinar a Alura, plataforma de cursos online onde eu sou o instrutor da maioria dos cursos de PHP: <https://alura.tv/diasdedev>

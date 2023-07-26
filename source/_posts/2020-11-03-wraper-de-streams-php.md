@@ -170,11 +170,11 @@ de streams podemos compactar e descompactar arquivos, enviar dados por FTP, aces
 
 Conforme prometido, vou deixar aqui alguns links para que você possa se aprofundar nesse assunto tão rico e importante.
 
-- https://www.youtube.com/watch?v=ZRYMzS97HVQ
+- https://youtube.com/watch?v=ZRYMzS97HVQ
     - Nessa palestra o [Alexandre Gaigalas](https://twitter.com/alganet) mostra um pouco do poder dos streams
 - https://www.php.net/manual/en/book.stream.php
     - A documentação oficial é sempre um ótimo lugar para recorrer e entender a fundo as funcionalidades
 - https://cursos.alura.com.br/course/php-io-arquivos-streams
-    - Na Alura existe um curso específico de streams usando filtros, contextos e muito mais. Se quiser 10% de desconto na sua assinatura, confere [esse link aqui](https://www.alura.com.br/promocao/diasdedev).
+    - Na Alura existe um curso específico de streams usando filtros, contextos e muito mais. Se quiser 10% de desconto na sua assinatura, confere [esse link aqui](https://alura.tv/diasdedev).
 - [PHP Assíncrono de Forma Nativa](/2020-09-16-php-assincrono-de-forma-nativa/)
     - Aqui mesmo no blog tem um post onde uso streams para realizar programação assíncrona através de I/O não bloqueante.

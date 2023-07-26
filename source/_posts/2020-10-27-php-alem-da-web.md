@@ -69,7 +69,15 @@ Se temos um cenários de muitas requisições para servidores externos, seja em 
 
 Já se muito processamento é utilizado, com calculos complexos, manipulação de imagens e qualquer outra coisa que consuma muita CPU, paralelização é a resposta. Podemos criar processos através da extensão [pcntl](https://php.net/pcntl) ou threads através da extensão [parallel](https://php.net/parallel). Ambas as opções requerem um estudo mais aprofundado sobre conceitos de sistemas operacionais e programação paralela, mas o resultado é muito gratificante.
 
-Se você quiser entender um pouco melhor sobre a diferença entre Programação Assíncrona e Programação Paralela, pode conferir este vídeo: https://www.youtube.com/watch?v=zLfXPSeCkB8
+Se você quiser entender um pouco melhor sobre a diferença entre Programação Assíncrona e Programação Paralela, pode conferir este vídeo:
+
+<lite-youtube videoid="zLfXPSeCkB8">
+    <a href="https://youtube.com/watch?v=zLfXPSeCkB8" class="lty-playbtn" title="Reproduzir vídeo">
+        <span class="lyt-visually-hidden">
+            Programação assíncrona vs Programação paralela - Entenda a diferença | Programando com Vinicius Dias
+        </span>
+    </a>
+</lite-youtube>
 
 ## Conclusão
 
@@ -77,7 +85,7 @@ Nesta rápida leitura já conseguimos notar que não só é possível utilizar P
 
 Por ser uma linguagem de programação completa e madura, diversas bibliotecas, extensões e componentes já surgiram para resolver problemas comuns e cabe a nós, devs e amantes do PHP, aprendê-las e utilizá-las.
 
-Além disso, com o advento do [JIT](https://www.youtube.com/watch?v=WLx0z9kloro) que chegará no PHP 8, o uso do PHP fora da web se tornará ainda mais efetivo. Diversas otimizações de baixo nível que eu nem mesmo sei explicar vão acontecer, tornando possíveis aplicações que requerem ainda mais processamento como IoT, Machine Learning e vários outros nomes bonitos que não me arriscarei a citar.
+Além disso, com o advento do [JIT](https://youtube.com/watch?v=WLx0z9kloro) que chegará no PHP 8, o uso do PHP fora da web se tornará ainda mais efetivo. Diversas otimizações de baixo nível que eu nem mesmo sei explicar vão acontecer, tornando possíveis aplicações que requerem ainda mais processamento como IoT, Machine Learning e vários outros nomes bonitos que não me arriscarei a citar.
 
 Se você ainda acha que PHP está preso na Web, acredito que não há momento melhor para abrir os olhos e conhecer este novo mundo!
 
