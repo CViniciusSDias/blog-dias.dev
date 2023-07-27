@@ -7,7 +7,7 @@ categories: ["PHP", "Conceitos"]
 ---
 Realizar acesso a streams é uma tarefa relativamente comum para devs PHP. Seja lendo e escrevendo em arquivos, fazendo requisições HTTP, etc.
 
-Operações de I/O são custosas e levam algum tempo para executar. Quando temos diversas operações desse tipo, uma técnica que pode ajudar (e muito) na performance da aplicação é realizá-las de forma assíncrona.
+Operações de I/O são custosas e levam algum tempo para serem executadas. Quando temos diversas operações desse tipo, uma técnica que pode ajudar (e muito) na performance da aplicação é realizá-las de forma assíncrona.
 
 ## Acesso a streams
 
@@ -47,7 +47,7 @@ Antes de falar do PHP em si, acho válido citar que o sistema operacional já tr
 
 ### Função stream_select
 
-Uma função não muito comum para nós que trabalhamos com PHP é a [stream_select](https://php.net/stream_select). Essa função nos permite "observar" modificações que possam acontecer em streams. O probelma é que ela não é nada fácil de se entender, então vou tentar tornar este processo menos doloroso para você.
+Uma função não muito comum para nós que trabalhamos com PHP é a [stream_select](https://php.net/stream_select). Essa função nos permite "observar" modificações que possam acontecer em streams. O problema é que ela não é nada fácil de se entender, então vou tentar tornar este processo menos doloroso para você.
 
 ## Cenário
 
@@ -152,7 +152,7 @@ Depois disso que começa a parte difícil. A chamada para a função `stream_sel
 
 #### Parâmetros
 
-Segundo detalhe importante: os parâmetros. O 3 primeiros parâmetros dessa função são passados por referência. Por isso o segundo e terceiro são variáveis que nós nem tínhamos definido ainda. O primeiro parâmetro é a lista de streams que queremos observar para ler. O segundo é para escrita. Já o terceiro, menos comum, é para dados excepcionais que possuem maior prioridade. Os 2 últimos parâmetros são sobre timeout.
+Segundo detalhe importante: os parâmetros. Os 3 primeiros parâmetros dessa função são passados por referência. Por isso o segundo e terceiro são variáveis que nós nem tínhamos definido ainda. O primeiro parâmetro é a lista de streams que queremos observar para ler. O segundo é para escrita. Já o terceiro, menos comum, é para dados excepcionais que possuem maior prioridade. Os 2 últimos parâmetros são sobre timeout.
 
 O parâmetro passado como 1 indica o número de segundos que essa função deve esperar receber uma notificação de novidade nos streams até "desistir", ou seja, o timeout. Esse é o motivo pelo qual ela deve estar em um loop. Se esse tempo passar e nós não tivermos novidade, devemos tentar de novo depois. Caso algum (não necessariamente todos) stream esteja pronto antes desse 1 segundo, a função retornará. O último parâmetro, que informamos como 0, indica o tempo em microsegundos para timeout.
 
