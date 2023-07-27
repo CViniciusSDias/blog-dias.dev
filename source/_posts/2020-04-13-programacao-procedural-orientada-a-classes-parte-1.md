@@ -152,7 +152,7 @@ Caso você tenha algum outro exemplo desse tipo em mente, já tenha visto algum 
 
 ## Princípios e padrões
 
-Para nos ajudar a utilizar de forma mais "correta" a orientação a objetos, existem diversos padrões e princípios. Uns mais simples como o [Tell, Don't ask](https://youtu.be/7IXeLhpjk6g), outros mais completos e complexos como os [princípios SOLID](https://amzn.to/3Eplrm2).
+Para nos ajudar a utilizar de forma mais "correta" a orientação a objetos, existem diversos padrões e princípios. Uns mais simples como o [Tell, Don't ask](https://www.youtube.com/watch?v=7IXeLhpjk6g), outros mais completos e complexos como os [princípios SOLID](https://amzn.to/3Eplrm2).
 
 Todos os princípios merecem uma atenção especial, porém isso foge do escopo deste artigo, mas uma rápida busca te mostra uma imensidão de conteúdo a respeito.
 

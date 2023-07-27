@@ -96,7 +96,7 @@ Outros _frameworks_ como [Amp PHP](https://amphp.org/) têm a mesma proposta, po
 
 A principal diferença entre o Swoole e as demais ferramentas citadas de servidores auto-contidos é que o Swoole não é um componente em PHP e sim uma extensão, ou seja, o Swoole foi escrito em C e compilado para ser "integrado" ao PHP. Isso além de conceder ainda mais performance para o código, ainda dá poderes a mais para o Swoole como lidar de forma assíncrona com código que originalmente seria síncrono (como com PDO e curl, por exemplo).
 
-Já existe material por aí sobre Swoole, inclusive [esse vídeo](https://youtu.be/GCECSLtT49U) no meu canal e o [livro](https://amzn.to/3gxamov) escrito por um dos criadores da ferramenta, por isso não vou transformar esse artigo em um tutorial, mas vale a pena pesquisar mais a fundo.
+Já existe material por aí sobre Swoole, inclusive [esse vídeo](https://youtube.com/watch?v=GCECSLtT49U) no meu canal e o [livro](https://amzn.to/3gxamov) escrito por um dos criadores da ferramenta, por isso não vou transformar esse artigo em um tutorial, mas vale a pena pesquisar mais a fundo.
 
 ## Conclusão
 

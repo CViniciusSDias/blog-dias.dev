@@ -29,7 +29,13 @@ data-ad-slot="2366637560"></ins>
 
 Se você não está familiarizado com o termo "programação assíncrona", recomendo assistir este vídeo antes de continuar o artigo:
 
-[Programação Assíncrona vs Programação Paralela](https://youtu.be/zLfXPSeCkB8)
+<lite-youtube videoid="zLfXPSeCkB8">
+    <a href="https://youtube.com/watch?v=zLfXPSeCkB8" class="lty-playbtn" title="Reproduzir vídeo">
+        <span class="lyt-visually-hidden">
+            Programação assíncrona vs Programação paralela - Entenda a diferença | Programando com Vinicius Dias
+        </span>
+    </a>
+</lite-youtube>
 
 Entendido o que é programação assíncrona, como podemos fazer acesso a streams de forma assíncrona utilizando PHP sem nenhuma extensão ou biblioteca externa? Será possível?
 

@@ -55,7 +55,7 @@ Existem muitas configurações diferentes que podem ser definidas no arquivo `ph
 
 O formato `.ini` é bastante simples e consiste em uma chave (o nome da configuração) e um valor (o valor da configuração) separados pelo sinal de igualdade (`=`). Além disso, é possível adicionar comentários colocando um ponto e vírgula (`;`) em sua frente.
 
-Sendo assim, para termos um arquivo `php.ini` dizendo que todos os erros devem ser exibidos, habilitando a [configuração `secure` do cookie de sessão](/2022-09-27-cookies-e-seguranca/), tendo o [opcache](https://youtu.be/6vEspHqjrkI) habilitado e a [extensão](/2022-02-13-extensoes-php/) `pdo_mysql` também habilitada, nós teríamos o seguinte:
+Sendo assim, para termos um arquivo `php.ini` dizendo que todos os erros devem ser exibidos, habilitando a [configuração `secure` do cookie de sessão](/2022-09-27-cookies-e-seguranca/), tendo o [opcache](https://youtube.com/watch?v=6vEspHqjrkI) habilitado e a [extensão](/2022-02-13-extensoes-php/) `pdo_mysql` também habilitada, nós teríamos o seguinte:
 
 ```ini
 ; comentário. O PHP não vai ler essa linha
@@ -74,7 +74,7 @@ Você não precisa tentar memorizar a lista de configurações possíveis, pois 
 
 Antes de finalizar, você também deve ter notado que em nosso exemplo, duas linhas possuem um ponto (`.`) no nome da configuração e duas linhas não. Geralmente as configurações de [extensões](/2022-02-13-extensoes-php/) são nomeadas no formato _extensao.configuracao_, ou seja, a configuração `enable` da extensão `opcache` se torna `opcache.enable`. Já as configurações que não são de uma extensão do PHP não possuem esse ponto.
 
-Um outro detalhe do formato `ini` são suas _Sections_. Uma seção é identificada por um nome rodeado por colchetes. Então se eu quiser organizar meu arquivo e nomear uma seção nele com todas as configurações relacionadas a [opcache](https://youtu.be/6vEspHqjrkI), eu poderia ter o seguinte:
+Um outro detalhe do formato `ini` são suas _Sections_. Uma seção é identificada por um nome rodeado por colchetes. Então se eu quiser organizar meu arquivo e nomear uma seção nele com todas as configurações relacionadas a [opcache](https://youtube.com/watch?v=6vEspHqjrkI), eu poderia ter o seguinte:
 
 ```ini
 [opcache]
@@ -97,7 +97,7 @@ error_reporting=E_ALL
 display_errors=1
 ```
 
-Caso eu queira desabilitar o [opcache](https://youtu.be/6vEspHqjrkI) no projeto executado na pasta `/meu/projeto`, eu posso ter o seguinte:
+Caso eu queira desabilitar o [opcache](https://youtube.com/watch?v=6vEspHqjrkI) no projeto executado na pasta `/meu/projeto`, eu posso ter o seguinte:
 
 ```ini
 [PATH=/meu/projeto]
@@ -120,6 +120,6 @@ Conhecer o `php.ini` é de suma importância para qualquer pessoa que vá trabal
 Durante o artigo eu deixei alguns links, mas aproveito para deixar algumas referências novamente aqui:
 
 - Post aqui no blog sobre Extensões PHP: [https://dias.dev/2022-02-13-extensoes-php/](/2022-02-13-extensoes-php/)
-- Vídeo no meu canal sobre _Opcache_: <https://youtu.be/6vEspHqjrkI>
+- Vídeo no meu canal sobre _Opcache_: <https://youtube.com/watch?v=6vEspHqjrkI>
 - Documentação sobre as diretivas do `php.ini`: <https://www.php.net/manual/en/ini.php>
 - Cupom de desconto na Alura para você se aprofundar em PHP: <https://alura.tv/diasdedev>
