@@ -44,11 +44,11 @@ function getTitle(string $file): mixed
 
 function getLineFromTitle(string $title): string
 {
-    if (strlen($title) <= 35) {
+    if (strlen($title) <= 32) {
         return $title;
     }
 
-    $limitedText = substr($title, 0, 34);
+    $limitedText = substr($title, 0, 32);
     $lastSpacePosition = strrpos($limitedText, ' ');
 
     return substr($limitedText, 0, $lastSpacePosition);
