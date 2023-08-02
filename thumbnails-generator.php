@@ -58,7 +58,7 @@ function writeLineToImage(GdImage $image, int $multiplier, int $textColor, strin
 {
     $fontSize = 58;
     $lineSpacing = 10;
-    $leftStartPosition = 10;
+    $leftStartPosition = 30;
     $topStartPosition = 330;
 
     imagettftext(
