@@ -1,7 +1,7 @@
 ---
 title: "Como remover acentos de palavras com PHP"
 date: "2023-08-01"
-description: "Remover acentos de palavras usando PHP é uma tarefa bastante comum, principalmente para gerar _slugs_ ou links amigáveis. Entenda nesse texto como você pode usar PHP para remover acentos de textos."
+description: "Remover acentos de palavras usando PHP é uma tarefa bastante comum, principalmente para gerar slugs ou links amigáveis. Entenda nesse texto como você pode usar PHP para remover acentos de textos."
 tags: ["PHP", "acentos", "string" , "normalização", "Dias de Dev"]
 categories: ["PHP"]
 ---
