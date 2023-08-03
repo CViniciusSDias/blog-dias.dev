@@ -6,6 +6,59 @@ tags: ["PHP", "acentos", "string" , "normalização", "Dias de Dev"]
 categories: ["PHP"]
 ---
 
+_Edit: [Neste comentário](https://www.linkedin.com/feed/update/urn:li:activity:7092531957842026499/) o Wanderson me apontou outra solução para resolver o mesmo problema, então estou adicionando-a ao início do post._
+
+## Extensão iconv
+
+```php
+<?php
+
+$string = 'Ãéïòû';
+echo iconv('UTF-8', 'ASCII//TRANSLIT', $string); // Exibe: Aeiou
+```
+
+O código PHP acima remove os acentos, logo, o texto `Ãéïòû` vai se tornar `Aeiou`. Esse trabalho é realizado pela [extensão](/2022-02-13-extensoes-php/) `iconv` que vem instalada por padrão no PHP. Ela permite a conversão entre _[encodings](/2021-08-24-charsets-e-encodings-como-strings-funcionam/)_.
+
+Ao converter uma string para _ASCII_, nós podemos escolher ignorar os caracteres não existentes nesse _charset_ ou realizar uma transliteração (mapeamento) dos caracteres que não fazem parte da tabela para o mais próximo possível. Para isso, utilizamos o sufixo `//TRANSLIT` ao segundo parâmetro. Isso transforma, por exemplo, o caractere `Ã` em `A`.
+
+Essa abordagem vai funcionar na maioria dos cenários, mas há algumas observações que devem ser consideradas.
+
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-8918461095244552"
+data-ad-slot="2366637560"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+### Locale
+
+A conversão com `iconv` não vai funcionar caso a categoria `LC_CTYPE` do `locale` esteja definida como `C` ou `POSIX`.
+
+Exemplo:
+```php
+<?php
+
+setlocale(LC_CTYPE, 'POSIX');
+echo iconv('UTF-8', 'ASCII//TRANSLIT', 'Ãéïòû'); // Exibe ?????
+```
+
+### Implementação do iconv
+
+Outro problema é que o sufixo `//TRANSLIT` tem seu funcionamento dependente da implementação do `iconv` que seu sistema operacional possui. Algumas implementações são conhecidas por ignorar `//TRANSLIT`, então a conversão provavelmente falhará.
+
+Para esses cenários uma de suas opções é instalar outra implementação do `iconv`. Você pode verificar qual a implementação do seu sistema operacional lendo o conteúdo da constante `ICONV_IMPL`. A implementação `glibc` é segura e funciona conforme exemplificado nesse post.
+
+### Solução
+
+Caso você, por algum motivo, não possa alterar o `locale` em seu servidor e o padrão for `C` ou `POSIX`, a solução descrita não é válida para seu caso. Se sua implementação do `iconv` no sistema operacional for uma incompatível com `//TRANSLIT` e você não puder ou preferir não instalar outra implementação, essa dica também não foi para você.
+
+Uma solução para os problemas previamente citados é utilizar outra abordagem, com outra extensão. Para estes raros cenários, deixo a seguir o conteúdo original desse post, onde mostro como utilizar a normalização de strings com PHP para remover acentos.
+
+## Post original
+
 Remover acentos de palavras usando PHP é uma tarefa bastante comum, principalmente para gerar _slugs_ ou links amigáveis. Nesse texto nós vamos aprender a utilizar a extensão _intl_ para realizar essa tarefa com 2 simples linhas de código.
 
 ### TL;DR Me mostre logo o código
