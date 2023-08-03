@@ -19,7 +19,7 @@ echo iconv('UTF-8', 'ASCII//TRANSLIT', $string); // Exibe: Aeiou
 
 O código PHP acima remove os acentos, logo, o texto `Ãéïòû` vai se tornar `Aeiou`. Esse trabalho é realizado pela [extensão](/2022-02-13-extensoes-php/) `iconv` que vem instalada por padrão no PHP. Ela permite a conversão entre _[encodings](/2021-08-24-charsets-e-encodings-como-strings-funcionam/)_.
 
-Ao converter uma string para _ASCII_, nós podemos escolher ignorar os caracteres não existentes nesse _charset_ ou realizar uma transliteração (mapeamento) dos caracteres que não fazem parte da tabela para o mais próximo possível. Para isso, utilizamos o sufixo `//TRANSLIT` ao segundo parâmetro. Isso transforma, por exemplo, o caractere `Ã` em `A`.
+Ao converter uma string para _ASCII_, nós podemos escolher ignorar os caracteres não existentes nesse _charset_ ou realizar uma transliteração (mapeamento) dos caracteres que não fazem parte da tabela para o mais próximo possível. Para isso, adicionamos o sufixo `//TRANSLIT` ao segundo parâmetro. Isso transforma, por exemplo, o caractere `Ã` em `A`.
 
 Essa abordagem vai funcionar na maioria dos cenários, mas há algumas observações que devem ser consideradas.
 
