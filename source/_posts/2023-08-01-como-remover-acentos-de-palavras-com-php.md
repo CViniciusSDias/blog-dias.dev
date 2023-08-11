@@ -6,7 +6,7 @@ tags: ["PHP", "acentos", "string" , "normalização", "Dias de Dev"]
 categories: ["PHP"]
 ---
 
-_Edit: [Neste comentário](https://www.linkedin.com/feed/update/urn:li:activity:7092531957842026499/) o Wanderson me apontou outra solução para resolver o mesmo problema, então estou adicionando-a ao início do post._
+_Edit: [Neste comentário](https://www.linkedin.com/feed/update/urn:li:activity:7092531957842026499?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7092531957842026499%2C7092591873462038528%29) o Wanderson me apontou outra solução para resolver o mesmo problema, então estou adicionando-a ao início do post._
 
 ## Extensão iconv
 
