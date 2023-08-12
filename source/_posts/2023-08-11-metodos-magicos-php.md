@@ -10,7 +10,7 @@ Os métodos mágicos no PHP são métodos "especiais" que são invocadas implici
 
 ### Métodos mágicos: Uma visão geral
 
-PHP é uma linguagem de programação que suporta, dentre outros, o paradigma de programação orientada a objetos. Sendo assim, podemos definir métodos dentro das nossas classes, ou seja, funções que operam no contexto de um objeto. Métodos mágicos são aqueles que podemos definir em nosso código e que são acionados automaticamente pelo PHP em situações específicas.
+PHP é uma linguagem de programação que suporta, dentre outros, o paradigma de programação orientada a objetos. Sendo assim, podemos definir métodos dentro das nossas classes, ou seja, funções que operam no contexto de um objeto. Métodos mágicos são aqueles que podemos definir em nosso código e são acionados automaticamente pelo PHP em situações específicas.
 
 Alguns exemplos de quando os métodos mágicos podem ser acionados incluem tentativas de acesso a membros inexistentes ou inacessíveis de uma classe, conversões de objetos e verificações especiais.
 
