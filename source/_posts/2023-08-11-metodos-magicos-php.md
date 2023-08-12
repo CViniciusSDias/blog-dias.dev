@@ -2,7 +2,7 @@
 title: "Explorando Métodos Mágicos no PHP: Conceitos e Exemplos Práticos"
 date: "2023-08-11"
 description: "Descubra como os métodos mágicos no PHP permitem a execução implícita de ações específicas. Explore exemplos práticos que ilustram seu uso em programação orientada a objetos. Aprenda como aproveitar esse recurso poderoso do PHP."
-tags: ["PHP", "métodos mágicos", "programação orientada a objetos", "orientação a objetos", "programação PHP", "desenvolvimento web" "Dias de Dev"]
+tags: ["PHP", "métodos mágicos", "programação orientada a objetos", "orientação a objetos", "programação PHP", "desenvolvimento web", "Dias de Dev"]
 categories: ["PHP"]
 ---
 
