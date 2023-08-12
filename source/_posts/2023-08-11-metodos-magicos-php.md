@@ -1,26 +1,22 @@
 ---
-title: "Métodos mágicos no PHP"
-date: "2023-08-01"
-description: "O PHP possui um conceito chamado de métodos mágicos, que permite a execução de forma implícita de métodos definidos em nosso código."
-tags: ["PHP", "métodos mágicos", "orientação a objetos" , "Dias de Dev"]
+title: "Explorando Métodos Mágicos no PHP: Conceitos e Exemplos Práticos"
+date: "2023-08-11"
+description: "Descubra como os métodos mágicos no PHP permitem a execução implícita de ações específicas. Explore exemplos práticos que ilustram seu uso em programação orientada a objetos. Aprenda como aproveitar esse recurso poderoso do PHP."
+tags: ["PHP", "métodos mágicos", "programação orientada a objetos", "orientação a objetos", "programação PHP", "desenvolvimento web" "Dias de Dev"]
 categories: ["PHP"]
 ---
 
-Métodos mágicos no PHP são métodos "especiais" que são definidos em nosso código e executados de forma implícita quando determinada ação acontece. Neste texto nós vamos entender como cada um deles funciona e quando podem ser úteis.
+Os métodos mágicos no PHP são métodos "especiais" que são invocadas implicitamente quando certas ações ocorrem. Neste post, exploraremos esses métodos, como eles funcionam e como podem ser úteis.
 
-## Métodos mágicos
+### Métodos mágicos: Uma visão geral
 
-PHP é uma linguagem de programação que suporta, dentre outros, o paradigma de programação orientada a objetos. Com isso, nós podemos definir métodos em nossas classes, ou seja, funções que agem no escopo de um objeto.
+PHP é uma linguagem de programação que suporta, dentre outros, o paradigma de programação orientada a objetos. Sendo assim, podemos definir métodos dentro das nossas classes, ou seja, funções que operam no contexto de um objeto. Métodos mágicos são aqueles que podemos definir em nosso código e que são acionados automaticamente pelo PHP em situações específicas.
 
-Métodos mágicos no PHP são alguns métodos que nós podemos definir em nosso código e que, em determinadas situações, são executados automaticamente pelo PHP.
+Alguns exemplos de quando os métodos mágicos podem ser acionados incluem tentativas de acesso a membros inexistentes ou inacessíveis de uma classe, conversões de objetos e verificações especiais.
 
-Alguns casos onde métodos mágicos podem ser executados são: quando tentamos acessar membros inexistentes ou inacessíveis, quando tentamos realizar algumas conversões ou verificações no objeto, etc.
+## Exemplo prático
 
-## Exemplo real
-
-Os métodos mágicos mais famosos e simples de entender que o PHP fornece são os métodos que permitem acesso a membros inexistentes ou inacessíveis.
-
-Imagine o seguinte cenário: você está utilizando o framework Laravel. Nele, você definiu uma _Model_ que lidará com os detalhes de persistência de um usuário. O código a seguir é um possível exemplo:
+Um exemplo claro dos métodos mágicos em ação é o caso do framework Laravel. Considere uma classe de modelo (_Model_) que lida com a persistência de um usuário:
 
 ```php
 <?php
@@ -33,7 +29,8 @@ class User extends Model
 { }
 ```
 
-Repare que a classe acima não possui nenhuma propriedade definida, mas mesmo assim o código a seguir é perfeitamente possível e válido:
+Apesar de não definir nenhuma propriedade explicitamente, podemos atribuir valores a propriedades como se elas existissem:
+
 ```php
 <?php
 
@@ -45,9 +42,7 @@ $user->email = 'email@example.com';
 $user->save();
 ```
 
-O método `save` você pode até imaginar que venha da classe base `Model`, mas e as propriedades? Seria impossível o Laravel saber todas as propriedades possíveis de todas as _Models_ que eu fosse criar.
-
-É para esses casos que os métodos mágicos foram pensados. O que acontece no código acima é que, ao tentar atribuir um valor à propriedade `name`, que não existe, um método mágico é executado, salvando esse valor em uma propriedade `attributes` que a classe base `Model` define como um array associativo.
+O método `save` é entendido como parte da classe base `Model`, mas e quanto às propriedades? Para cenários como esse, os métodos mágicos foram concebidos.
 
 <ins class="adsbygoogle"
 style="display:block; text-align:center;"
@@ -59,11 +54,9 @@ data-ad-slot="2366637560"></ins>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-### Como implementar?
+## Implementação de métodos mágicos
 
-Tendo entendido um caso real onde métodos mágicos são utilizados (pelo Laravel), como nós poderíamos implementar nosso próprio método mágico?
-
-Todo método mágico no PHP começa com 2 _underlines_ (`__`). O método mágico executado quando tentamos definir um valor a uma propriedade inexistente (ou inacessível) se chama `__set`. Esse método recebe 2 parâmetros: o nome da propriedade que estamos tentando definir e o valor sendo atribuído a ela. Então para criarmos uma classe que permitira o armazenamento de qualquer valor em seus objetos, assim a classe `Model` do Laravel faz, poderíamos ter o seguinte código:
+O nome de todo método mágico no PHP começa com dois underscores (`__`). Por exemplo, o método `__set` é invocado quando tentamos atribuir um valor a uma propriedade inexistente ou inacessível. Ele recebe o nome da propriedade e o valor como parâmetros:
 
 ```php
 <?php
@@ -71,7 +64,7 @@ Todo método mágico no PHP começa com 2 _underlines_ (`__`). O método mágico
 class NossaModel
 {
     /**
-     * @var array<string, mixed> Array associativo contendo todos os valores que defirirmos
+     * @var array<string, mixed> Array associativo contendo todos os valores que definirmos
      */
     private array $atributos;
     
