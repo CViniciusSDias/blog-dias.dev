@@ -196,12 +196,12 @@ class Exemplo
     }
 }
 
-// Chama implicitamente Exemplo::__callStatic(1, 2):
+// Chama implicitamente Exemplo::__callStatic('qualquerCoisa', [1, 2]):
 Exemplo::qualquerCoisa(1, 2);
 
 $objeto = new Exemplo();
 
-// Chama implicitamente $objeto->__call(1, 2):
+// Chama implicitamente $objeto->__call('qualquerCoisa', [1, 2]):
 $objeto->qualquerCoisa(1, 2);
 ```
 
