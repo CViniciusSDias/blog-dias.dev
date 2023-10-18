@@ -9,3 +9,4 @@
 s3.conf
 /vendor/
 .idea/
+.yarn/

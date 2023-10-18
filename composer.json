@@ -1,7 +1,7 @@
 {
     "require": {
         "sculpin/sculpin": "^3.2",
-        "twig/intl-extra": "^3.5",
+        "twig/intl-extra": "^3.7.1",
         "ext-gd": "*"
     },
     "scripts": {
