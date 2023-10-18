@@ -233,7 +233,7 @@ Para quem usa sistemas _Unix_ (_Linux_ ou _Mac_) existe um comando chamado `time
 como essas.
 
 A primeira versão do nosso código (bloqueante) gera essa informação quando executo o seguinte comando (sendo `star-wars.php`o nome do nosso arquivo):
-```bash
+```console
 $ time php star-wars.php
 
 php star-wars.php  0.14s user 0.04s system 2% cpu 7.186 total
@@ -241,7 +241,7 @@ php star-wars.php  0.14s user 0.04s system 2% cpu 7.186 total
 Basicamente, um pouco mais de 7 segundos foram necessários para executar todas as requisições.
 
 Já com a versão final do código, temos a seguinte saída:
-```bash
+```console
 $ time php star-wars.php
 
 php star-wars.php  0.14s user 0.04s system 6% cpu 2.387 total
@@ -249,7 +249,7 @@ php star-wars.php  0.14s user 0.04s system 6% cpu 2.387 total
 Ou seja, pouco mais de 2 segundos (quase 5 segundos a menos). É uma baita diferença para um exemplo tão simples, não acha?
 
 Agora um último teste, comentando a parte referente ao `curl_multi_select`:
-```bash
+```console
 $ time php star-wars.php
 
 php star-wars.php  0.50s user 0.70s system 49% cpu 2.421 total

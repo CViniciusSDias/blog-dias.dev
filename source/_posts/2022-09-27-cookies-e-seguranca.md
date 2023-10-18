@@ -61,12 +61,12 @@ Além desses atributos "básicos", cookies podem possuir parâmetros extra. Algu
 #### Exemplos de definições de _cookies_
 
 Para enviar um _cookie_ de sessão, o seguinte cabeçalho pode ser enviado:
-```
+```http
 Set-Cookie: sessionId=123456
 ```
 
 Já para um _cookie_ permanente com duração de 1 semana:
-```
+```http
 Set-Cookie: nome=valor; Max-Age=604800
 ```
 
@@ -86,7 +86,7 @@ Como já foi explicado anteriormente, o parâmetro `HttpOnly` impede que o _cook
 
 Cada linguagem back-end pode fornecer suas facilidades para definir o _cookie_ de sessão como `HttpOnly`. No PHP, por exemplo, além da função `session_set_cookie_params`, há configurações como a `session.cookie_httponly`. O cabeçalho de um _cookie_ `HttpOnly` seria parecido com:
 
-```
+```http
 Set-Cookie: sessionId=123456; HttpOnly
 ```
 
@@ -101,7 +101,7 @@ Para exemplificar: imagine que meu site dias.dev seja malicioso. Nele eu vou col
 Se você, acessando meu site, estiver logado em `example.com` (com o _cookie_ armazenado e o parâmetro `SameSite=None`), essa requisição vai ser feita com sucesso para uma ação de remoção de um dado e você nem vai perceber. Só haverá uma "imagem quebrada" no site.
 
 Para impedir que a partir de um site, _cookies_ sejam enviados para outro, podemos (dentre outras coisas), definir a política de `SameSite` como `Lax` (o que via de regra é o padrão) ou `Strict`:
-```
+```http
 Set-Cookie: sessionId=123456; HttpOnly; SameSite=Lax
 ```
 
@@ -113,7 +113,7 @@ Outra forma de realizar [_session hijacking_](https://owasp.org/www-community/at
 
 Para impedir que um _cookie_ seja enviado em requisições não criptografadas, basta definir o parâmetro `Secure`. Quando uma requisição sem HTTPS acontecer, esse _cookie_ não será enviado. Com isso, nosso `header` ficaria:
 
-```
+```http
 Set-Cookie: sessionId=123456; HttpOnly; SameSite=Lax; Secure
 ```
 

@@ -6,7 +6,7 @@
     "@symfony/webpack-encore": "^4.4.0",
     "file-loader": "^6.2.0",
     "gh-pages": "^6.0.0",
-    "highlightjs": "^9.16.2",
+    "highlight.js": "^11.9.0",
     "node-sass": "^9.0.0",
     "sass-loader": "^13.3.2",
     "webpack": "^5.89.0",

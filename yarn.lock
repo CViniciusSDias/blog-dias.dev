@@ -4510,10 +4510,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"highlightjs@npm:^9.16.2":
-  version: 9.16.2
-  resolution: "highlightjs@npm:9.16.2"
-  checksum: 511de5a5f2d3568963ebe4a337b2abe4fd5856de458b85af877eca0958c66245e107ca90a8f8ab06a3c3169f0f0f7c08d668e1c649ec0a8a1d871d99f7e7a476
+"highlight.js@npm:^11.9.0":
+  version: 11.9.0
+  resolution: "highlight.js@npm:11.9.0"
+  checksum: 4043d31c5de9d27d13387d9a9e5e1939557254b7b85f0fab85d9cae0e420e131a3456ebf6148552020a1d8a216d671d583f2433d6c4de6179b8a66487a8325cb
   languageName: node
   linkType: hard
 
@@ -7018,7 +7018,7 @@ __metadata:
     "@symfony/webpack-encore": ^4.4.0
     file-loader: ^6.2.0
     gh-pages: ^6.0.0
-    highlightjs: ^9.16.2
+    highlight.js: ^11.9.0
     node-sass: ^9.0.0
     sass-loader: ^13.3.2
     webpack: ^5.89.0
