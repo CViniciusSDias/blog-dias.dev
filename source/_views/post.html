@@ -24,15 +24,6 @@
 
 {% block head_styles %}
     <link rel="stylesheet" href="/build/post.css">
-    {% if page.video %}
-        <link rel="stylesheet" href="/build/lite-yt-embed-style.css">
-    {% endif %}
-{% endblock %}
-
-{% block scripts_after %}
-    {% if page.video %}
-        <script src="/build/lite-yt-embed-script.js" async></script>
-    {% endif %}
 {% endblock %}
 
 {% block content_wrapper %}
@@ -114,4 +105,10 @@
 </noscript>
 {% endif %}
 
+{% endblock %}
+
+{% block scripts_after %}
+    {% if page.video %}
+        <script src="/build/lite-yt-embed-script.js" type="module"></script>
+    {% endif %}
 {% endblock %}
