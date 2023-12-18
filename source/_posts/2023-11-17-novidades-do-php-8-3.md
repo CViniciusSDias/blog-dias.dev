@@ -253,3 +253,6 @@ Mas se você quiser saber sobre **todas** as novidades que o PHP 8.3 traz, pode 
 - [Adições à extensão de aleatoriedade (`Randomizer`)](https://wiki.php.net/rfc/randomizer_additions)
 - [Utilizar exceções por padrão na extensão `SQLite3`](https://wiki.php.net/rfc/sqlite3_exceptions)
 - [Descontinuar funções com sobrecarga](https://wiki.php.net/rfc/deprecate_functions_with_overloaded_signatures)
+
+E se você quiser aprender mais sobre PHP e suas funcionalidades, vou deixar aqui um cupom de desconto para a Alura, onde eu tenho diversos cursos sobre PHP, dentre outros assuntos:
+<https://alura.tv/diasdedev>
