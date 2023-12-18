@@ -1,6 +1,6 @@
 ---
 title: "Novidades do PHP 8.3: O que há de novo nessa versão do PHP"
-date: "2023-1X-XX"
+date: "2023-11-17"
 description: "Explore as novidades do PHP 8.3, incluindo novas funções, novas classes, descontinuações e muito mais. Fique por dentro das melhorias e assista aos vídeos explicativos no canal Dias de Dev."
 tags: ["PHP 8.3", "readonly", "constantes tipadas", "FFI", "PHP Override", "exceções de DateTime", "json_validate", "novidades PHP", "programação PHP", "desenvolvimento web", "Dias de Dev", "PHP 8.3 features", "atualizações PHP", "linguagem de programação", "deep copy em PHP", "segurança de tipos", "métodos magicos em PHP"]
 categories: ["PHP"]
