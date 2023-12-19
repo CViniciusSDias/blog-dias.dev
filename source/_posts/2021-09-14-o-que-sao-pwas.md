@@ -13,7 +13,7 @@ Quando falamos de aplicativos, principalmente móveis, pensamos logo em acessar 
 
 Primeiro, precisamos mesmo de uma loja? Por que não pesquisar diretamente no Google um serviço ao invés de pesquisar em uma loja de aplicativos? Segundo, será que só aplicativos móveis "nativos" são capazes de controlar o _hardware_ dos dispositivos onde eles rodam?
 
-<img src="https://web-dev.imgix.net/image/tcFciHGuF3MxnTr1y5ue01OGLBn2/1DKtUFjXLJbiiruKA9P1.svg" alt="Gráfico mostrando a relação entre capacidade e alcance de PWAs e aplicações nativas e serviços web, onde PWAs possuem tanta capacidade quanto um aplicativo nativo e tanto alcance quanto um serviço Web" class="big-image" />
+<img src="https://web-dev.imgix.net/image/tcFciHGuF3MxnTr1y5ue01OGLBn2/1DKtUFjXLJbiiruKA9P1.svg" alt="Gráfico mostrando a relação entre capacidade e alcance de PWAs e aplicações nativas e serviços web, onde PWAs possuem tanta capacidade quanto um aplicativo nativo e tanto alcance quanto um serviço Web" class="big-image" loading="lazy" />
 
 ## O poder da Web
 
@@ -55,17 +55,17 @@ Uma dúvida comum ao aprender sobre PWAs é sobre a instalação da aplicação.
 
 Outro ponto é que um aplicativo possui uma experiência mais imersiva, sem interferências de outras abas do navegador, além de barras de ferramentas, etc.
 
-<img src="/build/pwa/pwa-ifood.jpg" alt="Tela da PWA do ifood, que é exatamente igual ao aplicativo nativo" class="big-image" />
+<img src="/build/pwa/pwa-ifood.jpg" alt="Tela da PWA do ifood, que é exatamente igual ao aplicativo nativo" class="big-image" loading="lazy" />
 
 Como podemos ver, uma PWA pode se comportar visualmente exatamente como uma aplicação nativa. As barras do navegador podem sumir, a cor da barra de notificação pode ser personalizada, etc.
 
 Além do mais, podemos optar por criar um atalho para essa aplicação web direto em nossa tela inicial:
 
-<img src="/build/pwa/menu-instalar-ifood.jpg" alt='Tela do navegador com o menu aberto, mostrando a opção de "Adicionar à tela inicial"' class="big-image" />
+<img src="/build/pwa/menu-instalar-ifood.jpg" alt='Tela do navegador com o menu aberto, mostrando a opção de "Adicionar à tela inicial"' class="big-image" loading="lazy" />
 
 Mas claro, nem todo usuário vai abrir o menu do navegador para adicionar um atalho à tela inicial. O ideal seria poder ter um botão de instalar essa aplicação para que o usuário não tenha esse "esforço".
 
-<img src="/build/pwa/tela-instalacao-uber.jpg" alt="Mensagem sugerindo a instalação da PWA do uber sem precisar abrir o menu do navegador" class="big-image" />
+<img src="/build/pwa/tela-instalacao-uber.jpg" alt="Mensagem sugerindo a instalação da PWA do uber sem precisar abrir o menu do navegador" class="big-image" loading="lazy" />
 
 Conforme podemos ver na imagem anterior, isso também é perfeitamente possível. Além de termos um botão na aplicação para instalá-la, o próprio navegador ao identificar uma PWA pode sugerir sua instalação. A ideia é que isso fiquei cada vez mais natural, inclusive, com os navegadores tomando decisões mais assertivas ao fazer tais sugestões.
 
