@@ -36,7 +36,8 @@
         <link rel="apple-touch-icon" sizes="1024x1024" href="/build/jackson/1024x1024.png">
         <link rel="apple-touch-icon" sizes="2048x2048" href="/build/jackson/2048x2048.png">#}
 
-        <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="{{ site.title }} activity feed" />
+        <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="{{ site.title }} activity feed">
+        <link rel="canonical" href="{{ site.url }}{{ page.url }}">
         {% if page.css_file is defined %}
         <link rel="stylesheet" href="/build/{{ page.css_file }}.css">
         {% endif %}
