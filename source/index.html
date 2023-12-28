@@ -14,7 +14,7 @@ css_file: index
             <h2 itemprop="headline">
                 <a href="{{ post.url }}" itemprop="url">{{ post.title }}</a>
             </h2>
-            <time class="post-date" itemprop="dateCreated" pubdate datetime="{{ post.date|format_date(pattern="Y-MM-dd") }}">
+            <time class="post-date" itemprop="datePublished" pubdate datetime="{{ post.date|format_date(pattern="Y-MM-dd") }}">
                 {{ post.date|format_date(locale='pt-BR', pattern="dd 'de' MMMM 'de' Y") }}
             </time>
         </header>
