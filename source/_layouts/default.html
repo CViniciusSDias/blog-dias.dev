@@ -37,7 +37,9 @@
         <link rel="apple-touch-icon" sizes="2048x2048" href="/build/jackson/2048x2048.png">#}
 
         <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="{{ site.title }} activity feed">
-        <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+        {% set page_url = page.url is same as('/.') ? '/' : page.url %}
+        <link rel="canonical"
+              href="{{ site.url }}{{ page_url }}{{ not (page_url ends with '/') ? '/' : '' }}">
         {% if page.css_file is defined %}
         <link rel="stylesheet" href="/build/{{ page.css_file }}.css">
         {% endif %}

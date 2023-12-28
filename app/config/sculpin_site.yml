@@ -3,6 +3,8 @@
 # in a template to get the contents of the `title` key.
 title: Dias de Dev
 url: https://dias.dev
+author: Vinicius Dias
+email: vinicius@dias.dev
 
 # Insert your disqus shortname
 #disqus:

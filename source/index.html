@@ -14,9 +14,9 @@ css_file: index
             <h2 itemprop="headline">
                 <a href="{{ post.url }}" itemprop="url">{{ post.title }}</a>
             </h2>
-            <small class="post-date" itemprop="dateCreated">
+            <time class="post-date" itemprop="dateCreated" pubdate datetime="{{ post.date|format_date(pattern="Y-MM-dd") }}">
                 {{ post.date|format_date(locale='pt-BR', pattern="dd 'de' MMMM 'de' Y") }}
-            </small>
+            </time>
         </header>
         <div itemprop="abstract">
             {{ post.meta.description }}
@@ -38,10 +38,10 @@ css_file: index
 {% if page.pagination.previous_page or page.pagination.next_page %}
     <nav class="index-footer">
         {% if page.pagination.next_page %}
-        <a href="{{ page.pagination.next_page.url }}">Publicações mais antigas</a>
+        <a href="{{ page.pagination.next_page.url }}/">Publicações mais antigas</a>
         {% endif %}
         {% if page.pagination.previous_page %}
-        <a href="{{ page.pagination.previous_page.url }}">Publicações mais recentes</a>
+        <a href="{{ page.pagination.previous_page.url }}/">Publicações mais recentes</a>
         {% endif %}
     </nav>
 {% endif %}
