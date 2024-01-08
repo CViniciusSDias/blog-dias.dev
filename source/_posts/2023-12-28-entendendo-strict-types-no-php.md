@@ -45,7 +45,7 @@ data-ad-slot="2366637560"></ins>
 
 ## Malabarismo com tipos
 
-Embora o PHP possua os famosos e muito úteis _type hits_, é importante dizer que nem sempre eles são seguidos à risca. O PHP possui outro conceito chamado _type juggling_ (malabarismo de tipos em tradução livre) que é basicamente a conversão de tipos de forma implícita. Essa funcionalidade permite algumas facilidades bem interessantes, principalmente quando nos lembramos que o protocolo HTTP trabalha somente com texto. Se nós recebessemos os dois números para realizar a soma por uma requisição, eles viriam como `string`s, então o seguinte código seria executado:
+Embora o PHP possua os famosos e muito úteis _type hints_, é importante dizer que nem sempre eles são seguidos à risca. O PHP possui outro conceito chamado _type juggling_ (malabarismo de tipos em tradução livre) que é basicamente a conversão de tipos de forma implícita. Essa funcionalidade permite algumas facilidades bem interessantes, principalmente quando nos lembramos que o protocolo HTTP trabalha somente com texto. Se nós recebessemos os dois números para realizar a soma por uma requisição, eles viriam como `string`s, então o seguinte código seria executado:
     
 ```php
 soma('1', '2'); // 3
@@ -61,7 +61,7 @@ Desde a versão 8.1 o PHP emitirá um aviso de obsolência (_deprecation notice_
 
 ## Impedindo conversões
 
-Para impedir esse comportamento do PHP, nós podemos usar a diretiva `declare(strict_types=1)` que irá forçar o PHP a seguir os _type hits_ de forma mais rígida, sem conversões implícitas de tipos. Ao usar essa diretiva, o PHP irá lançar um erro do tipo `TypeError` quando tentarmos passar um tipo diferente do esperado, mesmo que seja possível realizar alguma conversão. Sendo assim, se onde eu chamo a função `soma` houver a declaração de `strict_types`, o código lançará um erro:
+Para impedir esse comportamento do PHP, nós podemos usar a diretiva `declare(strict_types=1)` que irá forçar o PHP a seguir os _type hints_ de forma mais rígida, sem conversões implícitas de tipos. Ao usar essa diretiva, o PHP irá lançar um erro do tipo `TypeError` quando tentarmos passar um tipo diferente do esperado, mesmo que seja possível realizar alguma conversão. Sendo assim, se onde eu chamo a função `soma` houver a declaração de `strict_types`, o código lançará um erro:
 
 ```php
 <?php
