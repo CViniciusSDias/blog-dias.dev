@@ -19,7 +19,12 @@
     <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
     <meta property="twitter:title" content="{{ page.title }} | {{ site.title }}">
     <meta property="twitter:description" content="{{ page.description }}">
-    {#<meta property="twitter:image" content="proporção 1:1">#}
+
+    <link rel="preconnect" href="https://gravatar.com">
+    <link rel="prefetch" href="/build/social/facebook.svg" as="image" type="image/svg+xml">
+    <link rel="prefetch" href="/build/social/twitter_x.svg" as="image" type="image/svg+xml">
+    <link rel="prefetch" href="/build/social/linkedin.svg" as="image" type="image/svg+xml">
+    <link rel="prefetch" href="/build/social/whatsapp.svg" as="image" type="image/svg+xml">
 {% endblock %}
 
 {% block head_styles %}
@@ -46,16 +51,16 @@
                 </p>
                 <span>
                     <a href="https://facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" aria-label="Compartilhar post no Facebook">
-                        <img src="/build/social/facebook.svg" alt="Logo do Facebook" />
+                        <img src="/build/social/facebook.svg" alt="Logo do Facebook" loading="lazy" />
                     </a>
-                    <a href="https://twitter.com/intent/tweet/?text={{ (page.title ~ " | " ~ site.title ~ "\n")|url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank" aria-label="title="ost no X (Twitter)">
-                        <img src="/build/social/twitter_x.svg" alt="Logo do X (Twitter)" />
+                    <a href="https://twitter.com/intent/tweet/?text={{ (page.title ~ " | " ~ site.title ~ "\n")|url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank" aria-label="Compartilhar post no X (Twitter)">
+                        <img src="/build/social/twitter_x.svg" alt="Logo do X (Twitter)" loading="lazy" />
                     </a>
                     <a href="https://linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}" target="_blank" aria-label="Compartilhar post no LinkedIn">
-                        <img src="/build/social/linkedin.svg" alt="Logo do LinkedIn" />
+                        <img src="/build/social/linkedin.svg" alt="Logo do LinkedIn" loading="lazy" />
                     </a>
                     <a href="https://api.whatsapp.com/send?text={{ site.url }}{{ page.url }}" target="_blank" aria-label="Compartilhar post no WhatsApp">
-                        <img src="/build/social/whatsapp.svg" alt="Logo do WhatsApp" />
+                        <img src="/build/social/whatsapp.svg" alt="Logo do WhatsApp" loading="lazy" />
                     </a>
                 </span>
             </div>
