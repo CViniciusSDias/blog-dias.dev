@@ -43,7 +43,17 @@ Esse componente não tem requisitos obrigatórios, mas há algumas recomendaçõ
 
 Nós vamos treinar um modelo de classificação usando PHP para prever se determinado jogador vai durar mais de 5 anos na liga profissional de basquete estadunidense, a famosa NBA.
 
-Para isso, precisamos de estatísticas de diversos jogadores antes de entrarem na NBA e o resultado deles, ou seja, se jogaram durante pelo menos 5 anos após chegarem na liga. Esses dados podem ser encontrados [neste arquivo](https://github.com/ptyadana/Data-Science-and-Machine-Learning-Projects-Dojo/blob/master/Project%20-%20Predict%20Career%20Longevity%20for%20NBA%20Rookies%20with%20Binary%20Classification%20-%20Logistic%20Regression/data/nba_logreg.csv) que contém informações como o número de partidas jogadas, número de minutos, quantidade de pontos por jogo, número de cestas de 3 pontos feitas, etc. E a última coluna contém a classe onde cada jogador se encontra, onde `1.0` significa que o jogador participou por pelo menos 5 anos da liga e `0.0` quer dizer que ele ficou menos do que 5 anos. 
+Para isso, precisamos de estatísticas de diversos jogadores antes de entrarem na NBA e o resultado deles, ou seja, se jogaram durante pelo menos 5 anos após chegarem na liga. Esses dados podem ser encontrados [neste arquivo](https://github.com/ptyadana/Data-Science-and-Machine-Learning-Projects-Dojo/blob/master/Project%20-%20Predict%20Career%20Longevity%20for%20NBA%20Rookies%20with%20Binary%20Classification%20-%20Logistic%20Regression/data/nba_logreg.csv) que contém informações como o número de partidas jogadas, número de minutos, quantidade de pontos por jogo, número de cestas de 3 pontos feitas, etc. E a última coluna contém a classe onde cada jogador se encontra, onde `1.0` significa que o jogador participou por pelo menos 5 anos da liga e `0.0` quer dizer que ele ficou menos do que 5 anos.
+
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-8918461095244552"
+data-ad-slot="2366637560"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Etapas do processo de Machine Learning
 
@@ -141,6 +151,16 @@ $predicoesDeTeste = $modelo->predict($teste);
 ```
 
 Como nós temos os dados de teste, incluindo suas classes (também chamadas de labels) e temos as predições, podemos comparar ambos para medir quão corretas são as previsões do nosso modelo. Por exemplo, sabendo que determinado jogador realmente jogou por mais de 5 anos na NBA, nosso modelo teria previsto que ele atingiria essa marca ou teria dito que ele não chegaria lá?
+
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-8918461095244552"
+data-ad-slot="2366637560"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Medição do resultado
 
