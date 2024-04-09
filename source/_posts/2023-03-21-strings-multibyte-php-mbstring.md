@@ -85,4 +85,4 @@ echo mb_convert_encoding('string em UTF-8', 'ISO-8859-1', 'UTF-8');
 
 Tendo entendido o conceito de _strings multibyte_, fica bastante claro tanto o papel da extensão `mbstring` quanto vários problemas que nós já enfrentamos ao manipular caracteres acentuados, por exemplo.
 
-Se você quiser aprender mais sobre manipulações de strings, encodings, charsets, PHP e mais assuntos relacionados a tecnologia, aqui está um cupom de desconto para assinar a Alura, plataforma de cursos online onde eu sou o instrutor da maioria dos cursos de PHP: <https://alura.tv/diasdedev>
+Se você quiser aprender mais sobre manipulações de strings, encodings, charsets, PHP e mais assuntos relacionados a tecnologia, aqui está um [cupom de desconto](https://tidd.ly/4d42Myb) para assinar a Alura, plataforma de cursos online onde eu sou o instrutor da maioria dos cursos de PHP.

@@ -225,4 +225,4 @@ O PHP possui um grande número de métodos mágicos. Alguns são bastante fácei
 
 Lembrar de todos os métodos (e suas assinaturas) e o que cada um deles faz não é necessário, mas é importante saber da existência deles para saber o que pesquisar quando for necessário.
 
-Se quiser aprender mais sobre PHP como um todo e sobre tecnologia em geral, vou deixar aqui um cupom de 10% de desconto na Alura, plataforma onde eu gravei inúmeros cursos: <https://alura.tv/diasdedev>.
+Se quiser aprender mais sobre PHP e sobre tecnologia em geral, vou deixar aqui um [cupom de 10% de desconto na Alura](https://tidd.ly/4d42Myb), plataforma onde eu gravei inúmeros cursos.

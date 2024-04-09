@@ -175,7 +175,7 @@ Conforme prometido, vou deixar aqui alguns links para que você possa se aprofun
     - Nessa palestra o [Alexandre Gaigalas](https://twitter.com/alganet) mostra um pouco do poder dos streams
 - <https://www.php.net/manual/en/book.stream.php>
     - A documentação oficial é sempre um ótimo lugar para recorrer e entender a fundo as funcionalidades
-- <https://www.alura.com.br/curso-online-php-io-arquivos-streams>
-    - Na Alura existe um curso específico de streams usando filtros, contextos e muito mais. Se quiser 10% de desconto na sua assinatura, confere [esse link aqui](https://alura.tv/diasdedev).
+- [Curso online: PHP I/O - Arquivos de streams](https://tidd.ly/4aqwpba)
+    - Na Alura existe um curso específico de streams usando filtros, contextos e muito mais. Se quiser 10% de desconto na sua assinatura, confere [esse link aqui](https://tidd.ly/4d42Myb).
 - [PHP Assíncrono de Forma Nativa](/2020-09-16-php-assincrono-de-forma-nativa/)
     - Aqui mesmo no blog tem um post onde uso streams para realizar programação assíncrona através de I/O não bloqueante.

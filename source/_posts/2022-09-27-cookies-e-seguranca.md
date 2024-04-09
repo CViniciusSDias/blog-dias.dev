@@ -123,5 +123,4 @@ Repare que o uso correto dos parâmetros dos _cookies_ já nos protege de divers
 
 Se segurança é um assunto que te interessa, recomendo essa _playlist_ com alguns vídeos básicos sobre o assunto: <https://youtube.com/playlist?list=PL3j2sfzg3FPuOOt13tOcNTx6hCFYcQls9>
 
-Se quiser se aprofundar, na Alura há diversos cursos e formações sobre o tema de segurança. Aqui está um cupom de desconto para assinar a plataforma:
-<https://alura.tv/diasdedev>
+Se quiser se aprofundar, na Alura há diversos cursos e formações sobre o tema de segurança. Aqui está um [cupom de desconto](https://tidd.ly/4d42Myb) para assinar a plataforma.

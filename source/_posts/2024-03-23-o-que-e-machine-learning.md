@@ -254,5 +254,4 @@ Machine Learning é uma área de estudos fascinante e pode nos abrir um novo mun
     </a>
 </lite-youtube>
 
-E para se aprofundar ainda mais no mundo de machine learning, inteligência artificial e também PHP, você pode aproveitar esse cupom de 10% de desconto na Alura:
-<https://alura.tv/diasdedev>
+E para se aprofundar ainda mais no mundo de machine learning, inteligência artificial e também PHP, você pode aproveitar [esse cupom de 10% de desconto na Alura](https://tidd.ly/4d42Myb).
