@@ -44,16 +44,6 @@ $user->save();
 
 O método `save` é entendido como parte da classe base `Model`, mas e quanto às propriedades? Para cenários como esse, os métodos mágicos foram concebidos.
 
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-8918461095244552"
-data-ad-slot="2366637560"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ## Implementação de métodos mágicos
 
 O nome de todo método mágico no PHP começa com dois underscores (`__`). Por exemplo, o método `__set` é invocado quando tentamos atribuir um valor a uma propriedade inexistente ou inacessível. Ele recebe o nome da propriedade e o valor como parâmetros:

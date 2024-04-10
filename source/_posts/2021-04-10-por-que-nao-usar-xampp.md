@@ -21,16 +21,6 @@ Antes de falarmos os motivos de não usar XAMPP, é importante entendermos o que
 **A**pache, **M**ySQL, **P**HP e **P**earl, sendo o **X** inicial para identificar que esta ferramenta é multiplataforma
 (funciona em Windows, Linux e Mac).
 
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-8918461095244552"
-data-ad-slot="2366637560"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ## Qual o problema dessa abordagem?
 
 Existem alguns problemas com o uso dessa ferramenta, principalmente por iniciantes (que são justamente o público alvo da

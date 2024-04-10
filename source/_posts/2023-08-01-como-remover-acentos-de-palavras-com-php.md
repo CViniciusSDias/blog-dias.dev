@@ -23,16 +23,6 @@ Ao converter uma string para _ASCII_, nós podemos escolher ignorar os caractere
 
 Essa abordagem vai funcionar na maioria dos cenários, mas há algumas observações que devem ser consideradas.
 
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-8918461095244552"
-data-ad-slot="2366637560"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ### Locale
 
 A conversão com `iconv` não vai funcionar caso a categoria `LC_CTYPE` do `locale` esteja definida como `C` ou `POSIX`.
@@ -82,16 +72,6 @@ A primeira parte desse simples algoritmo consiste em **normalizar** o texto. Nor
 O código acima pega a string `"Ãéïòû"` e a normaliza utilizando a forma de normalização D (`NFD`), conhecida também como decomposição canônica (_Canonical Decomposition_). Essa regra consiste em separar os caracteres de acentuação dos demais, ou seja, caracteres como crase (\`) ou til (~) são separados das letras. O caractere `Ã`, por exemplo, se torna `A~`.
 
 Essa forma de normalização foi definida e nomeada pelo [_Unicode Consortium_](/2021-08-24-charsets-e-encodings-como-strings-funcionam/), mas não é a única. Você pode conferir mais detalhes sobre cada uma das "regras" no site oficial: <https://unicode.org/reports/tr15/>.
-
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-8918461095244552"
-data-ad-slot="2366637560"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ### Extensão PHP
 

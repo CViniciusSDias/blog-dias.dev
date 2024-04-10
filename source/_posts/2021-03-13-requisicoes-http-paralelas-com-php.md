@@ -27,16 +27,6 @@ que fornece informações sobre o universo _Star Wars_. Essa API é gratuita e v
 O que queremos fazer é buscar a lista de filmes (através da url https://swapi.dev/api/films/) e para cada filme buscar
 os seus detalhes em outra URL (https://swapi.dev/api/films/:id/).
 
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-8918461095244552"
-data-ad-slot="2366637560"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ### Solução bloqueante
 
 Usando o `cURL` de forma “padrão”, ou seja, bloqueante, podemos atingir este objetivo com o seguinte código:

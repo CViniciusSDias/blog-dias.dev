@@ -49,16 +49,6 @@ Com isso, nós informamos ao Cargo que ao compilar nosso projeto, ele deve gerar
 
 Se você executar o comando `cargo build`, o projeto recém-criado deve ser compilado sem nenhum problema.
 
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-8918461095244552"
-data-ad-slot="2366637560"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ## Escrevendo o código em Rust
 
 Para que a função que nós vamos escrever possa ser executada por outras linguagens, precisamos adotar algumas práticas e é isso que veremos agora.
@@ -122,16 +112,6 @@ var_dump($ffi->add(1, 2));
 ```
 
 Caso você tenha a extensão FFI instalada e habilitada, o resultado será `int(3)`. Isso significa que a função `add` foi executada corretamente e retornou o valor `3`.
-
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-8918461095244552"
-data-ad-slot="2366637560"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ## Considerações sobre tipos
 

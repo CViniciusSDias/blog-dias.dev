@@ -31,16 +31,6 @@ Aperte F12, vá até a aba "Aplicativo" (ou "Application") e lá você verá, no
 
 Para entender essa separação por domínio, vamos imaginar o seguinte cenário: sua aplicação, hospedada no domínio X, envia um _cookie_ de identificação de sessão. No código do seu app há chamadas para um servidor que configura relatórios de acesso ao site. Esse servidor está em outro local, no domínio Y. Sendo assim, você verá _cookies_ dos domínios X e Y ao acessar essa ferramenta de desenvolvedores.
 
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-8918461095244552"
-data-ad-slot="2366637560"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ### O que _Cookies_ armazenam
 
 Entendido o funcionamento básico e onde encontrá-los, vamos analisar quais informações um _cookie_ pode conter. Todo cookie possui, necessariamente, um nome e um valor. O nome é, como você deve imaginar, a forma que usamos para identificar a informação que esse cookie carrega em seu valor. Um _cookie_ de sessão, por exemplo, geralmente possui a palavra _session_ em seu nome enquanto seu valor será o ID da sessão.

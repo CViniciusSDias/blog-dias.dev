@@ -18,16 +18,6 @@ Uma analogia interessante foi feita pelo [Junior Grossi](https://twitter.com/jun
 
 Então, basicamente (beem basicamente), arquitetura diz respeito a como você vai separar sua aplicação em camadas, por exemplo, onde cada camada pode ter sua responsabilidade bem definida. Já o design de código diz respeito a como você vai organizar suas classes e métodos em cada uma das camadas. Quais padrões você vai seguir, como cada classe vai se comportar sozinha ou em conjunto com suas respetivas dependências, etc.
 
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-8918461095244552"
-data-ad-slot="2366637560"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ## Escolhas corriqueiras
 
 Agora que já entendemos basicamente o que é Design de Código, vamos falar sobre escolhas que fazemos frequentemente e que talvez não sejam as mais interessantes sob a ótica da programação orientada a objetos, ou melhor, sob a ótica do design orientado a objetos.

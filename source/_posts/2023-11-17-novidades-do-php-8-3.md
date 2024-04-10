@@ -71,16 +71,6 @@ class ClasseBase implements InterfaceTeste {
 }
 ```
 
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-8918461095244552"
-data-ad-slot="2366637560"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ## Retorno nulo em FFI
 
 Ao chamar uma função que não retorna nada, ou seja, `void`, via `FFI`, o PHP retornava um tipo específico chamado `FFI\CData` com o valor `void`. Agora, assim como em uma função PHP com o retorno `void`, nós receberemos `null` dessa função. Exemplo:
@@ -185,16 +175,6 @@ Eu gravei um vídeo curto no YouTube (no formato de _shorts_) falando sobre essa
     </a>
 </lite-youtube>
 
-
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-8918461095244552"
-data-ad-slot="2366637560"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ## Comando `php -l` agora suporta múltiplos arquivos
 

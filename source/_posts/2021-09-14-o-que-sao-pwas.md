@@ -29,16 +29,6 @@ Hoje em dia é perfeitamente possível que após acessar um aplicativo _web_, os
 
 Aqui você pode conferir algumas _APIs Web_ para ter acesso a recursos que antigamente só eram possíveis através de aplicações nativas: https://developer.mozilla.org/en-US/docs/Web/API
 
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-8918461095244552"
-data-ad-slot="2366637560"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ## Aplicações progressivas
 
 Já vimos que através da _Web_ podemos ter acesso a recursos muito poderosos, mas o que significa o **P** de PWA?

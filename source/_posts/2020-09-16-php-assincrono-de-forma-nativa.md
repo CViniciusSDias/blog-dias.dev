@@ -16,16 +16,6 @@ Antes de falar sobre técnicas e funções que permitem a programação assíncr
 
 Acesso a arquivos, requisições HTTP, sockets e muito mais pode ser feito através de [streams](https://php.net/streams). Um stream é basicamente um fluxo de dados, sendo que a origem desse fluxo pode variar (vide o início desse parágrafo). Quando utilizamos funções como `file_get_contents`, `fopen`, `fgets`, e as demais, estamos trabalhando com streams do PHP.
 
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-8918461095244552"
-data-ad-slot="2366637560"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ## Programação assíncrona
 
 Se você não está familiarizado com o termo "programação assíncrona", recomendo assistir este vídeo antes de continuar o artigo:

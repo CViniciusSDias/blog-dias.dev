@@ -22,18 +22,6 @@ css_file: index
             {{ post.meta.description }}
         </div>
     </article>
-
-    {% if loop.index == 3 %}
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-format="fluid"
-         data-ad-layout-key="-gd-13+3u-4y+2z"
-         data-ad-client="ca-pub-8918461095244552"
-         data-ad-slot="4932219016"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-    {% endif %}
 {% endfor %}
 {% if page.pagination.previous_page or page.pagination.next_page %}
     <nav class="index-footer">

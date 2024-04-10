@@ -21,15 +21,7 @@ echo strlen('Olá'); // Exibe 4
 echo strtoupper('olá'); // Exibe "OLá"
 ```
 
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-8918461095244552"
-data-ad-slot="2366637560"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 
 ## Strings multibyte

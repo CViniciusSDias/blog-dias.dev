@@ -33,16 +33,6 @@ soma('test 1', 'test 2'); // Fatal error: Uncaught TypeError: Argument 1 passed 
 
 Repare que ao tentar passar uma string para uma função que espera inteiros, um erro do tipo `TypeError` é lançado. Esse tipo de técnica traz mais segurança para nosso código de forma que conhecemos melhor os valores que manipulamos.
 
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-8918461095244552"
-data-ad-slot="2366637560"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ## Malabarismo com tipos
 
 Embora o PHP possua os famosos e muito úteis _type hints_, é importante dizer que nem sempre eles são seguidos à risca. O PHP possui outro conceito chamado _type juggling_ (malabarismo de tipos em tradução livre) que é basicamente a conversão de tipos de forma implícita. Essa funcionalidade permite algumas facilidades bem interessantes, principalmente quando nos lembramos que o protocolo HTTP trabalha somente com texto. Se nós recebessemos os dois números para realizar a soma por uma requisição, eles viriam como `string`s, então o seguinte código seria executado:
@@ -78,16 +68,6 @@ soma(1.5, 2.5); // Fatal error: Uncaught TypeError: Argument 1 passed to soma() 
 ```
 
 Um detalhe muito importante é que a diretiva `declare(strict_types=1)` deve ser declarada no início do arquivo, antes de qualquer código.
-
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-8918461095244552"
-data-ad-slot="2366637560"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ## Múltiplos arquivos
 

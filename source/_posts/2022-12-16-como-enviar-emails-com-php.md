@@ -49,16 +49,6 @@ SMTP (Simple Mail Transfer Protocol) é um protocolo usado para enviar e-mails a
 
 Quando você envia um e-mail usando um cliente de e-mail como o Microsoft Outlook ou o Gmail, o cliente se comunica com um servidor SMTP para enviar a mensagem. Esse servidor é responsável por encaminhar a mensagem para o servidor de e-mail do destinatário, que, por sua vez, entrega a mensagem ao cliente de e-mail do destinatário.
 
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-8918461095244552"
-data-ad-slot="2366637560"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ## Pacotes de envio de e-mails
 
 Se você precisa de mais flexibilidade do que a função `mail` do PHP pode oferecer, existem algumas bibliotecas que podem ser usadas para enviar e-mails com PHP. Dois exemplos populares são o PHPMailer e o Symfony Mailer.

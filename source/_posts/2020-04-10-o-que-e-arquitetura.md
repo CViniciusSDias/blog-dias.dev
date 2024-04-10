@@ -14,16 +14,6 @@ Como você trabalha com PHP, escolhe o framework que está "na boca do povo": La
 
 Os anos se passam. No futuro, você precisa dar manutenção em um sistema que usa uma versão mega desatualizada do framework já que eles decidiram trocar a ferramenta que fazia o acesso ao banco de dados, e toda a regra de negócios da aplicação está em "models" do Eloquent.
 
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-8918461095244552"
-data-ad-slot="2366637560"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ## Mundo real
 
 Parece irreal, né!?
