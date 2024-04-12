@@ -8,33 +8,13 @@
         {% block head_meta %}
             <meta name="robots" content="index, follow">
         {% endblock %}
-        <link rel="preload" href="/build/Baloo2-Bold.ttf" as="font" type="font/ttf" crossorigin>
-        <link rel="preload" href="/build/Baloo2-ExtraBold.ttf" as="font" type="font/ttf" crossorigin>
-        <link rel="preload" href="/build/Baloo2-Medium.ttf" as="font" type="font/ttf" crossorigin>
-        <link rel="preload" href="/build/Baloo2-Regular.ttf" as="font" type="font/ttf" crossorigin>
-        <link rel="preload" href="/build/Baloo2-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
-        <link rel="preload" href="/build/FugazOne-Regular.ttf" as="font" type="font/ttf" crossorigin>
+        <link rel="preload" href="/build/Baloo2-Bold.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/build/Baloo2-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/build/Baloo2-Medium.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/build/Baloo2-Regular.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/build/Baloo2-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/build/FugazOne-Regular.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="stylesheet" href="/build/app.css">
-
-        {#<link rel="apple-touch-startup-image" href="/build/2048x2048.png">
-        <meta name="mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <link rel="shortcut icon" sizes="76x76" href="/build/jackson/76x76.png">
-        <link rel="shortcut icon" sizes="120x120" href="/build/jackson/120x120.png">
-        <link rel="shortcut icon" sizes="128x128" href="/build/jackson/128x128.png">
-        <link rel="shortcut icon" sizes="152x152" href="/build/jackson/152x152.png">
-        <link rel="shortcut icon" sizes="196x196" href="/build/jackson/196x196.png">
-        <link rel="shortcut icon" sizes="512x512" href="/build/jackson/512x512.png">
-        <link rel="shortcut icon" sizes="1024x1024" href="/build/jackson/1024x1024.png">
-        <link rel="shortcut icon" sizes="2048x2048" href="/build/jackson/2048x2048.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/build/jackson/76x76.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/build/jackson/120x120.png">
-        <link rel="apple-touch-icon" sizes="128x128" href="/build/jackson/128x128.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/build/jackson/152x152.png">
-        <link rel="apple-touch-icon" sizes="196x196" href="/build/jackson/196x196.png">
-        <link rel="apple-touch-icon" sizes="512x512" href="/build/jackson/512x512.png">
-        <link rel="apple-touch-icon" sizes="1024x1024" href="/build/jackson/1024x1024.png">
-        <link rel="apple-touch-icon" sizes="2048x2048" href="/build/jackson/2048x2048.png">#}
 
         <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="{{ site.title }} activity feed">
         {% set page_url = page.url is same as('/.') ? '/' : page.url %}
