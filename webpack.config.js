@@ -6,7 +6,8 @@ Encore
     // public path used by the web server to access the output path
     .setPublicPath('/build')
     .copyFiles({
-        from: './source/assets/fonts'
+        from: './source/assets/fonts',
+        pattern: /\.woff2/
     })
     .copyFiles({
         from: './source/assets/img'
