@@ -165,4 +165,4 @@ Dois bons exemplos de caso de uso desse tipo de técnica são:
 1. pacote `php-tkui` que usa FFI para chamar o Tk, uma biblioteca gráfica escrita em C, o que permite [criação de aplicações desktop usando PHP](https://youtube.com/watch?v=5yhJMcCVNSI) 
 2. Computação de grandes arquivos JSON ou Markdown, que embora seja perfeitamente possível fazer diretamente me PHP, em alguns cenários pode se tornar mais eficiente usando Rust + FFI.
 
-Se você quiser aprender mais tanto sobre Rust quanto sobre PHP, há cursos gravados por mim lá na Alura. Aqui tem um [cupom de 10% de desconto](https://tidd.ly/4d42Myb) para assinar a plataforma.
+Se você quiser aprender mais tanto sobre Rust quanto sobre PHP, há cursos gravados por mim lá na Alura. Aqui tem um [cupom de 15% de desconto](https://tidd.ly/4d42Myb) para assinar a plataforma.

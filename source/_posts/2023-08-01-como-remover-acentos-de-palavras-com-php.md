@@ -111,4 +111,4 @@ Embora seja uma tarefa bastante comum, remover acentos com PHP pode não parecer
 
 O simples uso de uma extensão apropriada faz com que essa complexa tarefa seja imensamente facilitada. Recomendo acessar os links que deixei durante o post como referência para se aprofundar em cada um dos assuntos aqui abordados.
 
-Já no link a seguir eu deixo um [cupom de 10% de desconto](https://tidd.ly/4d42Myb) para você assinar a Alura, plataforma onde há cursos completos (alguns comigo, inclusive) sobre manipulação de strings (dentre vários outros assuntos de tecnologia).
+Já no link a seguir eu deixo um [cupom de 15% de desconto](https://tidd.ly/4d42Myb) para você assinar a Alura, plataforma onde há cursos completos (alguns comigo, inclusive) sobre manipulação de strings (dentre vários outros assuntos de tecnologia).

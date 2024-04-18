@@ -139,7 +139,7 @@ Durante o texto eu deixei alguns links que podem ajudar a entender alguns concei
     </a>
 </lite-youtube>
 
-Já no link a seguir eu deixo um [cupom de 10% de desconto](https://tidd.ly/4d42Myb) para você assinar a Alura, plataforma onde há cursos completos (alguns comigo, inclusive) sobre programação paralela e programação assíncrona (dentre vários outros assuntos de tecnologia).
+Já no link a seguir eu deixo um [cupom de 15% de desconto](https://tidd.ly/4d42Myb) para você assinar a Alura, plataforma onde há cursos completos (alguns comigo, inclusive) sobre programação paralela e programação assíncrona (dentre vários outros assuntos de tecnologia).
 
 ## Conclusão
 

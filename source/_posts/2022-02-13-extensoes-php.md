@@ -84,5 +84,5 @@ A linguagem de programação PHP é escrita em C e possui diversas extensões qu
 fazemos uso de várias extensões no dia-a-dia e entender este funcionamento é bastante importante para devs PHP.
 
 Se além de entender sobre algumas extensões você quiser aprender mais sobre PHP em si, você pode usar esse
-[cupom](https://tidd.ly/4d42Myb) que fornece 10% de desconto na assinatura da Alura, plataforma onde
+[cupom](https://tidd.ly/4d42Myb) que fornece 15% de desconto na assinatura da Alura, plataforma onde
 eu mesmo gravei diversos cursos sobre o assunto.

@@ -239,4 +239,4 @@ Claro que o PHP já possui ferramentas que realizam este trabalho de forma muito
 
 Mas seguindo o que citei no post sobre aprendizado, eu penso como [Richard Feynman](https://pt.wikipedia.org/wiki/Richard_Feynman) (Nobel de física): "O que eu não consigo criar, eu não entendo". Então antes de utilizar uma ferramenta que realiza o trabalho para mim, eu gosto de saber como realizar este trabalho sem ela. Com isso, se algum problema acontecer com a biblioteca, por exemplo, eu vou estar mais preparado para resolvê-lo já que eu entendo um pouco melhor como as coisas funcionam.
 
-Se você quiser aprender mais sobre algum desses assuntos, pode considerar assinar a Alura. Lá existem treinamentos (gravados por mim) sobre PHP Streams, ReactPHP e muito mais. Caso pretenda estudar na Alura, [neste link](https://tidd.ly/4d42Myb) você tem um desconto de 10%.
+Se você quiser aprender mais sobre algum desses assuntos, pode considerar assinar a Alura. Lá existem treinamentos (gravados por mim) sobre PHP Streams, ReactPHP e muito mais. Caso pretenda estudar na Alura, [neste link](https://tidd.ly/4d42Myb) você tem um desconto de 15%.
