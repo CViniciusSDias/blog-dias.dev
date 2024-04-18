@@ -1,12 +1,21 @@
 ---
-title: "Copy on Write no PHP: Como o PHP te economiza memória automaticamente por nós"
+title: "Descubra Como o PHP Utiliza Copy on Write para Economizar Memória"
 date: "2024-04-18"
-description: ""
+description: "Descubra como o PHP utiliza a técnica de Copy on Write para economizar memória ao manipular arrays. Entenda como essa estratégia inteligente ajuda a maximizar a eficiência do seu código, evitando cópias desnecessárias e otimizando o desempenho da sua aplicação."
 tags: [
     "PHP",
+    "Copy on Write",
+    "CoW",
+    "Manipulação de memória",
+    "Otimização de desempenho",
+    "Arrays",
+    "Eficiência de código",
+    "Economia de memória",
+    "Estratégias de programação",
     "Desenvolvimento Web",
     "Dias de Dev",
-    "Vinicius Dias"
+    "Vinicius Dias",
+    "Alura"
 ]
 categories: ["PHP"]
 video: false
