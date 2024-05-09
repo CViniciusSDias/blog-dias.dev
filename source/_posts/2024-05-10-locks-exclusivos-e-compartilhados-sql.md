@@ -31,6 +31,7 @@ Antes de conhecermos os tipos de _locks_, é importante entendermos **o que são
 
 ```sql
 SELECT estoque FROM produto WHERE id = ?;
+
 -- Na aplicação, verifica se estoque > 0.
 -- Se sim:
 UPDATE produto SET estoque = estoque - 1 WHERE id = ?;
@@ -58,6 +59,7 @@ Para realizarmos um bloqueio explícito (_explicit locking_) nós precisamos, an
 ```sql
 START TRANSACTION;
     SELECT estoque FROM produto WHERE id = ?;
+
     -- Na aplicação, verifica se estoque > 0.
     -- Se sim:
     UPDATE produto SET estoque = estoque - 1 WHERE id = ?;
@@ -80,6 +82,7 @@ START TRANSACTION;
       FROM produto
      WHERE id = ?
        FOR UPDATE;
+
     -- Na aplicação, verifica se estoque > 0.
     -- Se sim:
     UPDATE produto SET estoque = estoque - 1 WHERE id = ?;
@@ -110,6 +113,7 @@ START TRANSACTION;
       FROM produto
      WHERE id = ?
        FOR SHARE;
+
     -- Demais consultas
 COMMIT;
 ```
