@@ -131,11 +131,11 @@ O TransformersPHP permite que nós utilizemos diversos modelos disponíveis no [
 
 ## Conclusão
 
-Machine Learning é uma área de estudos fascinante e pode nos abrir um novo mundo de possibilidades e com ferramentas como TransformersPHP essas possibilidades estão abertas a nós, devs PHP. Se você se interessou pelo assunto, pode gostar do vídeo a seguir onde eu explico novamente o conceito de classificação e o aplico em outro conjunto de dados:
+Machine Learning é uma área de estudos fascinante e pode nos abrir um novo mundo de possibilidades e com ferramentas como TransformersPHP essas possibilidades estão abertas a nós, devs PHP. Se você se interessou pelo assunto, pode gostar do vídeo a seguir onde eu explico novamente sobre TransformersPHP e mostro alguns outros exemplos de uso da ferramenta:
 
-<lite-youtube videoid="HP7gluvSY9U" style="background-image: url('https://i.ytimg.com/vi/HP7gluvSY9U/hqdefault.jpg');">
-    <a href="https://youtube.com/watch?v=HP7gluvSY9U" class="lty-playbtn" title="Reproduzir vídeo">
-        <span class="lyt-visually-hidden">Reproduzir vídeo: Machine Learning com PHP: Aprendizado de máquina na prática | Dias de Dev</span>
+<lite-youtube videoid="Ax8yF15VSFg" style="background-image: url('https://i.ytimg.com/vi/Ax8yF15VSFg/hqdefault.jpg');">
+    <a href="https://youtube.com/watch?v=Ax8yF15VSFg" class="lty-playbtn" title="Reproduzir vídeo">
+        <span class="lyt-visually-hidden">Reproduzir vídeo: PHP e IA: Desvendando a Inteligência Artificial com PHP e TransformersPHP | Dias de Dev</span>
     </a>
 </lite-youtube>
 
