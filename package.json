@@ -3,18 +3,18 @@
     "@babel/core": "^7.23.2",
     "@babel/preset-env": "^7.23.2",
     "@justinribeiro/lite-youtube": "^1.5.0",
-    "@symfony/webpack-encore": "^4.4.0",
+    "@symfony/webpack-encore": "^5.2.0",
     "file-loader": "^6.2.0",
     "gh-pages": "^6.0.0",
     "highlight.js": "^11.9.0",
-    "node-sass": "^9.0.0",
-    "sass-loader": "^13.3.2",
-    "webpack": "^5.89.0",
+    "sass": "^1.94.0",
+    "sass-loader": "^16.0.6",
+    "webpack": "^5.102.1",
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
     "deploy": "echo 'dias.dev' > output_prod/CNAME && gh-pages -d output_prod -b main -r git@github.com:CViniciusSDias/cviniciussdias.github.io.git",
     "dev": "encore dev"
   },
-  "packageManager": "yarn@3.6.4"
+  "packageManager": "yarn@4.11.0"
 }
