@@ -1,16 +1,18 @@
 {
   "dependencies": {
-    "@babel/core": "^7.23.2",
-    "@babel/preset-env": "^7.23.2",
-    "@justinribeiro/lite-youtube": "^1.5.0",
-    "@symfony/webpack-encore": "^5.2.0",
+    "@justinribeiro/lite-youtube": "^1.9.0",
+    "highlight.js": "^11.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@symfony/webpack-encore": "^5.3.1",
     "file-loader": "^6.2.0",
-    "gh-pages": "^6.0.0",
-    "highlight.js": "^11.9.0",
-    "sass": "^1.94.0",
+    "gh-pages": "^6.3.0",
+    "sass": "^1.94.2",
     "sass-loader": "^16.0.6",
-    "webpack": "^5.102.1",
-    "webpack-cli": "^5.1.4"
+    "webpack": "^5.103.0",
+    "webpack-cli": "^6.0.1"
   },
   "scripts": {
     "deploy": "echo 'dias.dev' > output_prod/CNAME && gh-pages -d output_prod -b main -r git@github.com:CViniciusSDias/cviniciussdias.github.io.git",
