@@ -40,14 +40,14 @@
             <h1 itemprop="headline" class="post-title">
                 {{ page.title }}
             </h1>
-            <time class="post-date" itemprop="datePublished" pubdate datetime="{{ page.date|format_date(pattern='Y-MM-dd') }}">
+            <time class="post-date" itemprop="datePublished" datetime="{{ page.date|format_date(pattern='Y-MM-dd') }}">
                 {{ page.date|format_date(locale='pt-BR', pattern="dd 'de' MMMM 'de' Y") }}
             </time>
         </header>
         <div itemprop="articleBody">
             {{ page.blocks.content|raw }}
         </div>
-        <footer itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <footer>
             <div class="social-links-footer">
                 <p>
                     Gostou desse post? Que tal compartilhar?
@@ -67,7 +67,7 @@
                     </a>
                 </span>
             </div>
-            <div class="post-author-footer">
+            <div class="post-author-footer" itemprop="author" itemscope itemtype="https://schema.org/Person">
                 <img src="https://gravatar.com/avatar/63579c5a873f3ab6abff10803e9a252f.jpg?s=50"
                      alt="Foto do Vinicius Dias, um homem branco de cabelos escuros e curtos, em perfil com o fundo bem escuro em tons de azul enquanto mexe em um laptop durante uma apresentação."
                      width="50"
@@ -113,6 +113,10 @@
             </nav>
         {% endif %}
     </article>
+{% endblock %}
+
+{% block scripts %}
+<script defer src="/build/enable-highlight.js"></script>
 {% endblock %}
 
 {% block scripts_after %}

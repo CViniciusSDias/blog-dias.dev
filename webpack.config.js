@@ -13,6 +13,7 @@ Encore
         from: './source/assets/img'
     })
     .addEntry('app', './source/assets/js/app.js')
+    .addEntry('enable-highlight', './source/assets/js/enable-highlight.js')
     .addEntry('lite-yt-embed-script', '@justinribeiro/lite-youtube/lite-youtube.js')
     .addStyleEntry('index', './source/assets/css/index.scss')
     .addStyleEntry('post', './source/assets/css/post.scss')
