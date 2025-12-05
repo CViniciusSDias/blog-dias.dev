@@ -82,7 +82,7 @@ Set-Cookie: sessionId=123456; HttpOnly
 
 ### _Cookies_ e CSRF
 
-Um ataque _CSRF_ (_Cross-Site Request Forgery_) permite que um atacante se passe por outro usuário tabmém, enviando requisições de um site para outro.
+Um ataque _CSRF_ (_Cross-Site Request Forgery_) permite que um atacante se passe por outro usuário também, enviando requisições de um site para outro.
 
 Para exemplificar: imagine que meu site dias.dev seja malicioso. Nele eu vou colocar a seguinte tag `img`:
 ```html
