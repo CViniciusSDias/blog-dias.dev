@@ -1,5 +1,5 @@
 ---
-title: "Computação Forense: Como Analisar Alterações em Documentos Word"
+title: "Computação Forense e Perícia Digital: Analisando um documento Word"
 date: "2026-09-09"
 description: "Veja como analisar documentos Word além do controle de alterações, usando RSIDs para identificar grupos de modificações e evidências digitais."
 tags: [
